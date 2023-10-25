@@ -43,25 +43,6 @@ df = df.drop_duplicates()
 df.info()
 print("-----------------------------------------------------------------")
 
-# Check unique values remaining columns
-print(Colors.PURPLE + "--Check unique values for remaining rows--" + Colors.END)
-unique_recording_id = df['RecordingId'].value_counts()
-unique_process_id = df['ProcessId'].value_counts()
-unique_time_stamps = df['TimeStamp'].value_counts()
-unique_step_description = df['StepDescription'].value_counts()
-unique_application_process_name = df['ApplicationProcessName'].value_counts()
-print(Colors.BLUE + "Recording Id:" + Colors.END)
-print(unique_recording_id)
-print(Colors.BLUE + "Process Id:" + Colors.END)
-print(unique_process_id)
-print(Colors.BLUE + "TimeStamps:" + Colors.END)
-print(unique_time_stamps)
-print(Colors.BLUE + "Step Description:" + Colors.END)
-print(unique_step_description)
-print(Colors.BLUE + "Application Process Name:" + Colors.END)
-print(unique_application_process_name)
-
-
 # Check and handle missing values in ApplicationProcessName
 print(Colors.PURPLE + "--Check ApplicationProcessName empty values--" + Colors.END)
 print(Colors.GREEN + "For the empty values, we want to look at the column ApplicationParentWindowName to see which application the empty ApplicationProcessName belongs to" + Colors.END)

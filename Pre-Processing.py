@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 
 class Colors:
     PURPLE = '\033[95m'
@@ -7,7 +8,8 @@ class Colors:
     END = '\033[0m'
 
 # Load the data
-file_path = 'D:\OneDrive\OneDrive - Danmarks Tekniske Universitet\Process mining - 02269\Project\Recorded_Business_Tasks.csv'
+current_directory = os.path.dirname(os.path.abspath(__file__))
+file_path = os.path.join(current_directory, 'Input\Recorded_Business_Tasks.csv')
 df = pd.read_csv(file_path)
 
 # Display initial data information
@@ -80,5 +82,5 @@ print(Colors.PURPLE + "--Final columns--" + Colors.END)
 df.info()
 
 # Save the processed data to a new CSV file
-output_file_path = 'D:\OneDrive\OneDrive - Danmarks Tekniske Universitet\Process mining - 02269\Project\output-recorded-business-tasks.csv'
+output_file_path = os.path.join(current_directory,'Output\output-recorded-business-tasks.csv')
 df.to_csv(output_file_path, sep=';', index=False, encoding='utf-8')

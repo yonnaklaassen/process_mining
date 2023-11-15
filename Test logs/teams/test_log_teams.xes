@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="Recording_66" />
+		<event>
+			<date key="time:timestamp" value="2022-03-01T05:08:47+00:00" />
+			<string key="concept:name" value="initial_Press button in window" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-03-01T05:08:50+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_Teams" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-03-01T05:08:57+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_Teams" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-03-01T05:09:01+00:00" />
+			<string key="concept:name" value="Press button in window" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-03-01T05:09:07+00:00" />
+			<string key="concept:name" value="Populate text field in window_in_firefox" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-03-01T05:09:08+00:00" />
+			<string key="concept:name" value="Send keys" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-03-01T05:09:13+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_firefox" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-03-01T05:09:24+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_firefox" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-03-01T05:09:35+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_firefox" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-03-01T05:09:42+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_firefox" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-03-01T05:09:48+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_firefox" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-03-01T05:09:54+00:00" />
+			<string key="concept:name" value="Press button in window_in_firefox" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-03-01T05:09:57+00:00" />
+			<string key="concept:name" value="Populate text field in window_in_firefox" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-03-01T05:09:58+00:00" />
+			<string key="concept:name" value="Send keys" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-03-01T05:10:02+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_firefox" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-03-01T05:10:07+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_firefox" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-03-01T05:10:13+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_firefox" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-03-01T05:10:15+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_firefox" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-03-01T05:10:17+00:00" />
+			<string key="concept:name" value="Click UI element in window" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-03-01T05:10:19+00:00" />
+			<string key="concept:name" value="Press button in window_in_firefox" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-03-01T05:10:34+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_firefox" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-03-01T05:10:43+00:00" />
+			<string key="concept:name" value="Select menu option in window_in_firefox" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-03-01T05:10:51+00:00" />
+			<string key="concept:name" value="Populate text field in window_in_firefox" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-03-01T05:10:56+00:00" />
+			<string key="concept:name" value="Populate text field in window_in_firefox" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-03-01T05:11:01+00:00" />
+			<string key="concept:name" value="Populate text field in window_in_firefox" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-03-01T05:11:12+00:00" />
+			<string key="concept:name" value="Populate text field in window_in_firefox" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-03-01T05:11:17+00:00" />
+			<string key="concept:name" value="Populate text field in window_in_firefox" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-03-01T05:11:26+00:00" />
+			<string key="concept:name" value="final_Press button in window_in_firefox" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Recording_144" />
+		<event>
+			<date key="time:timestamp" value="2021-12-15T06:52:58+00:00" />
+			<string key="concept:name" value="initial_Select menu option in window" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2021-12-15T06:53:04+00:00" />
+			<string key="concept:name" value="Click UI element in window" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2021-12-15T06:53:07+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_chrome" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2021-12-15T06:53:14+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_chrome" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2021-12-15T06:53:19+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_chrome" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2021-12-15T06:53:25+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_chrome" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2021-12-15T06:53:28+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_chrome" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2021-12-15T06:53:41+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_chrome" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2021-12-15T06:53:56+00:00" />
+			<string key="concept:name" value="Click UI element in window" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2021-12-15T06:54:02+00:00" />
+			<string key="concept:name" value="Select menu option in window_in_Teams" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2021-12-15T06:54:11+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_Teams" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2021-12-15T06:54:22+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_Teams" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2021-12-15T06:54:35+00:00" />
+			<string key="concept:name" value="Populate text field in window_in_Teams" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2021-12-15T06:54:44+00:00" />
+			<string key="concept:name" value="Drag and drop UI element in window_in_Teams" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2021-12-15T06:54:47+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_Teams" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2021-12-15T06:54:49+00:00" />
+			<string key="concept:name" value="Send keys" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2021-12-15T06:54:57+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_Teams" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2021-12-15T06:55:42+00:00" />
+			<string key="concept:name" value="Press button in window_in_msedge" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2021-12-15T06:55:48+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_msedge" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2021-12-15T06:55:51+00:00" />
+			<string key="concept:name" value="Send keys" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2021-12-15T06:56:09+00:00" />
+			<string key="concept:name" value="final_Click UI element in window_in_msedge" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Recording_6" />
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:53:33+00:00" />
+			<string key="concept:name" value="initial_Press button in window" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:53:39+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_chrome" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:53:42+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_chrome" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:53:53+00:00" />
+			<string key="concept:name" value="Select menu option in window" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:53:57+00:00" />
+			<string key="concept:name" value="Click UI element in window" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:54:01+00:00" />
+			<string key="concept:name" value="Press button in window_in_msedge" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:54:10+00:00" />
+			<string key="concept:name" value="Populate text field in window_in_msedge" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:54:10+00:00" />
+			<string key="concept:name" value="Send keys" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:54:14+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_msedge" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:54:21+00:00" />
+			<string key="concept:name" value="Press button in window_in_msedge" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:54:26+00:00" />
+			<string key="concept:name" value="Press button in window_in_msedge" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:54:32+00:00" />
+			<string key="concept:name" value="Populate text field in window_in_msedge" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:54:35+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_msedge" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:54:41+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_msedge" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:54:50+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_msedge" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:54:56+00:00" />
+			<string key="concept:name" value="Press button in window_in_msedge" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:55:00+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_msedge" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:55:02+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_msedge" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:55:08+00:00" />
+			<string key="concept:name" value="Press button in window_in_msedge" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:55:11+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_msedge" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:55:24+00:00" />
+			<string key="concept:name" value="Populate text field in window_in_msedge" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:55:27+00:00" />
+			<string key="concept:name" value="Press button in window_in_msedge" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:55:33+00:00" />
+			<string key="concept:name" value="Press button in window_in_msedge" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:55:38+00:00" />
+			<string key="concept:name" value="Populate text field in window_in_msedge" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:55:41+00:00" />
+			<string key="concept:name" value="Send keys" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:55:45+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_msedge" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:55:50+00:00" />
+			<string key="concept:name" value="Press button in window_in_msedge" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:55:52+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_msedge" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:55:53+00:00" />
+			<string key="concept:name" value="Send keys" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:56:17+00:00" />
+			<string key="concept:name" value="Populate text field in window_in_msedge" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:56:23+00:00" />
+			<string key="concept:name" value="Populate text field in window_in_msedge" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:56:24+00:00" />
+			<string key="concept:name" value="Send keys" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:56:25+00:00" />
+			<string key="concept:name" value="Populate text field in window_in_msedge" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:56:29+00:00" />
+			<string key="concept:name" value="Press button in window_in_msedge" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:56:31+00:00" />
+			<string key="concept:name" value="Select menu option in window_in_msedge" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:56:33+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_msedge" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:56:35+00:00" />
+			<string key="concept:name" value="Click UI element in window_in_msedge" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:56:44+00:00" />
+			<string key="concept:name" value="Press button in window_in_msedge" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-02-21T10:56:53+00:00" />
+			<string key="concept:name" value="final_Press button in window_in_msedge" />
+		</event>
+	</trace>
+</log>

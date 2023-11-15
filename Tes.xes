@@ -1,0 +1,1863 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="Recording_144" />
+		<event>
+			<int key="StepId" value="0" />
+			<string key="RecordingId" value="Recording_144" />
+			<string key="ProcessId" value="Process_47" />
+			<date key="TimeStamp" value="2021-12-15T06:52:58+00:00" />
+			<string key="StepName" value="initial_Select menu option in window" />
+			<string key="StepDescription" value="Google Chrome - 2 running windows in Quick Launch Bar" />
+			<float key="ApplicationProcessName" value="nan" />
+			<float key="ApplicationParentWindowName" value="nan" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.SelectMenuOption Control: appmask['Quick Launch Bar']['Google Chrome - 2 running windows']\n&quot;]" />
+			<float key="NextStepId" value="2.0" />
+			<string key="label_EventName" value="Open cloud storage" />
+			<string key="label_EventId" value="Event_662" />
+			<string key="Process_Name" value="onedriveforbusiness/teams/onenote" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="6.0" />
+			<string key="concept:name" value="initial_Select menu option in window" />
+			<date key="time:timestamp" value="2021-12-15T06:52:58+00:00" />
+			<int key="@@index" value="0" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="StepId" value="1" />
+			<string key="RecordingId" value="Recording_144" />
+			<string key="ProcessId" value="Process_47" />
+			<date key="TimeStamp" value="2021-12-15T06:53:04+00:00" />
+			<string key="StepName" value="Click UI element in window" />
+			<string key="StepDescription" value="List Item 'Microsoft Office Home - Google Chrome' in List 'Task Switcher'" />
+			<float key="ApplicationProcessName" value="nan" />
+			<string key="ApplicationParentWindowName" value="Task Switcher" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['List \\'Task Switcher\\'']['List Item \\'Microsoft Office Home - Google Chrome\\''] ClickType: UIAutomation.ClickType.LeftClick OffsetX: -1 OffsetY: 29 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.TopCenter\n&quot;]" />
+			<float key="NextStepId" value="3.0" />
+			<string key="label_EventName" value="Open cloud storage" />
+			<string key="label_EventId" value="Event_662" />
+			<string key="Process_Name" value="onedriveforbusiness/teams/onenote" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="3.0" />
+			<string key="concept:name" value="Click UI element in window" />
+			<date key="time:timestamp" value="2021-12-15T06:53:04+00:00" />
+			<int key="@@index" value="1" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="StepId" value="2" />
+			<string key="RecordingId" value="Recording_144" />
+			<string key="ProcessId" value="Process_47" />
+			<date key="TimeStamp" value="2021-12-15T06:53:07+00:00" />
+			<string key="StepName" value="Click UI element in window_in_chrome" />
+			<string key="StepDescription" value="Hyperlink 'OneDrive' in Pane 'Microsoft Office Home - Google Chrome - Person 1'" />
+			<string key="ApplicationProcessName" value="chrome" />
+			<string key="ApplicationParentWindowName" value="Microsoft Office Home - Google Chrome - Person 1" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Pane \\'Microsoft Office Home - Google Chrome - Person 1\\'']['Hyperlink \\'OneDrive\\''] ClickType: UIAutomation.ClickType.LeftClick OffsetX: 0 OffsetY: -7 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.MiddleCenter\n&quot;]" />
+			<float key="NextStepId" value="4.0" />
+			<string key="label_EventName" value="Open cloud storage" />
+			<string key="label_EventId" value="Event_662" />
+			<string key="Process_Name" value="onedriveforbusiness/teams/onenote" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="7.0" />
+			<string key="concept:name" value="Click UI element in window_in_chrome" />
+			<date key="time:timestamp" value="2021-12-15T06:53:07+00:00" />
+			<int key="@@index" value="2" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="StepId" value="3" />
+			<string key="RecordingId" value="Recording_144" />
+			<string key="ProcessId" value="Process_47" />
+			<date key="TimeStamp" value="2021-12-15T06:53:14+00:00" />
+			<string key="StepName" value="Click UI element in window_in_chrome" />
+			<string key="StepDescription" value="Hyperlink 'Project Demo' in Pane 'Microsoft Office Home - Google Chrome - Person 1'" />
+			<string key="ApplicationProcessName" value="chrome" />
+			<string key="ApplicationParentWindowName" value="Microsoft Office Home - Google Chrome - Person 1" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Pane \\'Microsoft Office Home - Google Chrome - Person 1\\'']['Hyperlink \\'Project Demo\\''] ClickType: UIAutomation.ClickType.LeftClick OffsetX: -8 OffsetY: 5 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.TopCenter\n&quot;]" />
+			<float key="NextStepId" value="5.0" />
+			<string key="label_EventName" value="Locate spreadsheet in which the meeting points are mentioned" />
+			<string key="label_EventId" value="Event_663" />
+			<string key="Process_Name" value="onedriveforbusiness/teams/onenote" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="5.0" />
+			<string key="concept:name" value="Click UI element in window_in_chrome" />
+			<date key="time:timestamp" value="2021-12-15T06:53:14+00:00" />
+			<int key="@@index" value="3" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="StepId" value="4" />
+			<string key="RecordingId" value="Recording_144" />
+			<string key="ProcessId" value="Process_47" />
+			<date key="TimeStamp" value="2021-12-15T06:53:19+00:00" />
+			<string key="StepName" value="Click UI element in window_in_chrome" />
+			<string key="StepDescription" value="Hyperlink 'Minutes of Meeting.xlsx' in Pane 'Microsoft Office Home - Google Chrome - Person 1'" />
+			<string key="ApplicationProcessName" value="chrome" />
+			<string key="ApplicationParentWindowName" value="Microsoft Office Home - Google Chrome - Person 1" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Pane \\'Microsoft Office Home - Google Chrome - Person 1\\'']['Hyperlink \\'Minutes of Meeting.xlsx\\''] ClickType: UIAutomation.ClickType.LeftClick OffsetX: -8 OffsetY: 0 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.TopCenter\n&quot;]" />
+			<float key="NextStepId" value="6.0" />
+			<string key="label_EventName" value="Locate spreadsheet in which the meeting points are mentioned" />
+			<string key="label_EventId" value="Event_663" />
+			<string key="Process_Name" value="onedriveforbusiness/teams/onenote" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="6.0" />
+			<string key="concept:name" value="Click UI element in window_in_chrome" />
+			<date key="time:timestamp" value="2021-12-15T06:53:19+00:00" />
+			<int key="@@index" value="4" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="StepId" value="5" />
+			<string key="RecordingId" value="Recording_144" />
+			<string key="ProcessId" value="Process_47" />
+			<date key="TimeStamp" value="2021-12-15T06:53:25+00:00" />
+			<string key="StepName" value="Click UI element in window_in_chrome" />
+			<string key="StepDescription" value="Pane 'Microsoft Office Home - Google Chrome - Person 1'" />
+			<string key="ApplicationProcessName" value="chrome" />
+			<string key="ApplicationParentWindowName" value="Microsoft Office Home - Google Chrome - Person 1" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Pane \\'Microsoft Office Home - Google Chrome - Person 1\\'']['Image \\'To get  ...  the context menu.\\''] ClickType: UIAutomation.ClickType.LeftButtonUp OffsetX: 821 OffsetY: 83 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.TopLeft\n&quot;]" />
+			<float key="NextStepId" value="7.0" />
+			<string key="label_EventName" value="Locate spreadsheet in which the meeting points are mentioned" />
+			<string key="label_EventId" value="Event_663" />
+			<string key="Process_Name" value="onedriveforbusiness/teams/onenote" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="3.0" />
+			<string key="concept:name" value="Click UI element in window_in_chrome" />
+			<date key="time:timestamp" value="2021-12-15T06:53:25+00:00" />
+			<int key="@@index" value="5" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="StepId" value="6" />
+			<string key="RecordingId" value="Recording_144" />
+			<string key="ProcessId" value="Process_47" />
+			<date key="TimeStamp" value="2021-12-15T06:53:28+00:00" />
+			<string key="StepName" value="Click UI element in window_in_chrome" />
+			<string key="StepDescription" value="Pane 'Microsoft Office Home - Google Chrome - Person 1'" />
+			<string key="ApplicationProcessName" value="chrome" />
+			<string key="ApplicationParentWindowName" value="Microsoft Office Home - Google Chrome - Person 1" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Pane \\'Microsoft Office Home - Google Chrome - Person 1\\'']['Image \\'To get  ...  the context menu.\\''] ClickType: UIAutomation.ClickType.RightButtonUp OffsetX: 821 OffsetY: 83 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.TopLeft\n&quot;]" />
+			<float key="NextStepId" value="8.0" />
+			<string key="label_EventName" value="Locate spreadsheet in which the meeting points are mentioned" />
+			<string key="label_EventId" value="Event_663" />
+			<string key="Process_Name" value="onedriveforbusiness/teams/onenote" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="13.0" />
+			<string key="concept:name" value="Click UI element in window_in_chrome" />
+			<date key="time:timestamp" value="2021-12-15T06:53:28+00:00" />
+			<int key="@@index" value="6" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="StepId" value="7" />
+			<string key="RecordingId" value="Recording_144" />
+			<string key="ProcessId" value="Process_47" />
+			<date key="TimeStamp" value="2021-12-15T06:53:41+00:00" />
+			<string key="StepName" value="Click UI element in window_in_chrome" />
+			<string key="StepDescription" value="Text 'Copy' in Pane 'Microsoft Office Home - Google Chrome - Person 1'" />
+			<string key="ApplicationProcessName" value="chrome" />
+			<string key="ApplicationParentWindowName" value="Microsoft Office Home - Google Chrome - Person 1" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Pane \\'Microsoft Office Home - Google Chrome - Person 1\\'']['Text \\'Copy\\''] ClickType: UIAutomation.ClickType.LeftButtonUp OffsetX: 2 OffsetY: 2 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.MiddleCenter\n&quot;]" />
+			<float key="NextStepId" value="9.0" />
+			<string key="label_EventName" value="Locate spreadsheet in which the meeting points are mentioned" />
+			<string key="label_EventId" value="Event_663" />
+			<string key="Process_Name" value="onedriveforbusiness/teams/onenote" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="15.0" />
+			<string key="concept:name" value="Click UI element in window_in_chrome" />
+			<date key="time:timestamp" value="2021-12-15T06:53:41+00:00" />
+			<int key="@@index" value="7" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="StepId" value="8" />
+			<string key="RecordingId" value="Recording_144" />
+			<string key="ProcessId" value="Process_47" />
+			<date key="TimeStamp" value="2021-12-15T06:53:56+00:00" />
+			<string key="StepName" value="Click UI element in window" />
+			<string key="StepDescription" value="Microsoft Teams - 1 running window in Quick Launch Bar" />
+			<float key="ApplicationProcessName" value="nan" />
+			<float key="ApplicationParentWindowName" value="nan" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Quick Launch Bar']['Microsoft Teams - 1 running window'] ClickType: UIAutomation.ClickType.LeftButtonUp OffsetX: 11 OffsetY: 12 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.TopLeft\n&quot;]" />
+			<float key="NextStepId" value="10.0" />
+			<string key="label_EventName" value="Open note taking app through messaging app" />
+			<string key="label_EventId" value="Event_664" />
+			<string key="Process_Name" value="onedriveforbusiness/teams/onenote" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="6.0" />
+			<string key="concept:name" value="Click UI element in window" />
+			<date key="time:timestamp" value="2021-12-15T06:53:56+00:00" />
+			<int key="@@index" value="8" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="StepId" value="9" />
+			<string key="RecordingId" value="Recording_144" />
+			<string key="ProcessId" value="Process_47" />
+			<date key="TimeStamp" value="2021-12-15T06:54:02+00:00" />
+			<string key="StepName" value="Select menu option in window_in_Teams" />
+			<string key="StepDescription" value="Menu Item 'More added apps Toolbar' in Pane 'General  ...  Teams, Main Window'" />
+			<string key="ApplicationProcessName" value="Teams" />
+			<string key="ApplicationParentWindowName" value="General (Project RoadMap) | Microsoft Teams, Main Window" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.SelectMenuOption Control: appmask['Pane \\'General  ...  Teams, Main Window\\'']['Menu Item \\'More added apps Toolbar\\'']\n&quot;]" />
+			<float key="NextStepId" value="11.0" />
+			<string key="label_EventName" value="Open note taking app through messaging app" />
+			<string key="label_EventId" value="Event_664" />
+			<string key="Process_Name" value="onedriveforbusiness/teams/onenote" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="9.0" />
+			<string key="concept:name" value="Select menu option in window_in_Teams" />
+			<date key="time:timestamp" value="2021-12-15T06:54:02+00:00" />
+			<int key="@@index" value="9" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="StepId" value="10" />
+			<string key="RecordingId" value="Recording_144" />
+			<string key="ProcessId" value="Process_47" />
+			<date key="TimeStamp" value="2021-12-15T06:54:11+00:00" />
+			<string key="StepName" value="Click UI element in window_in_Teams" />
+			<string key="StepDescription" value="List Item 'OneNote  ...  more actions' in Pane 'General  ...  Teams, Main Window'" />
+			<string key="ApplicationProcessName" value="Teams" />
+			<string key="ApplicationParentWindowName" value="General (Project RoadMap) | Microsoft Teams, Main Window" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Pane \\'General  ...  Teams, Main Window\\'']['List Item \\'OneNote  ...  more actions\\''] ClickType: UIAutomation.ClickType.LeftButtonUp OffsetX: 22 OffsetY: 3 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.TopLeft\n&quot;]" />
+			<float key="NextStepId" value="12.0" />
+			<string key="label_EventName" value="Open note taking app through messaging app" />
+			<string key="label_EventId" value="Event_664" />
+			<string key="Process_Name" value="onedriveforbusiness/teams/onenote" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="11.0" />
+			<string key="concept:name" value="Click UI element in window_in_Teams" />
+			<date key="time:timestamp" value="2021-12-15T06:54:11+00:00" />
+			<int key="@@index" value="10" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="StepId" value="11" />
+			<string key="RecordingId" value="Recording_144" />
+			<string key="ProcessId" value="Process_47" />
+			<date key="TimeStamp" value="2021-12-15T06:54:22+00:00" />
+			<string key="StepName" value="Click UI element in window_in_Teams" />
+			<string key="StepDescription" value="Hyperlink 'Click  ...  a new section.' in Pane 'General  ...  Teams, Main Window'" />
+			<string key="ApplicationProcessName" value="Teams" />
+			<string key="ApplicationParentWindowName" value="General (Project RoadMap) | Microsoft Teams, Main Window" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Pane \\'General  ...  Teams, Main Window\\'']['Hyperlink \\'Click  ...  a new section.\\''] ClickType: UIAutomation.ClickType.LeftClick OffsetX: 50 OffsetY: -6 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.BottomLeft\n&quot;]" />
+			<float key="NextStepId" value="13.0" />
+			<string key="label_EventName" value="Open note taking app through messaging app" />
+			<string key="label_EventId" value="Event_664" />
+			<string key="Process_Name" value="onedriveforbusiness/teams/onenote" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="13.0" />
+			<string key="concept:name" value="Click UI element in window_in_Teams" />
+			<date key="time:timestamp" value="2021-12-15T06:54:22+00:00" />
+			<int key="@@index" value="11" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="StepId" value="12" />
+			<string key="RecordingId" value="Recording_144" />
+			<string key="ProcessId" value="Process_47" />
+			<date key="TimeStamp" value="2021-12-15T06:54:35+00:00" />
+			<string key="StepName" value="Populate text field in window_in_Teams" />
+			<string key="StepDescription" value="Edit 'Enter a section name:' in Pane 'General  ...  Teams, Main Window'; Text:'New guideline'" />
+			<string key="ApplicationProcessName" value="Teams" />
+			<string key="ApplicationParentWindowName" value="General (Project RoadMap) | Microsoft Teams, Main Window" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.PopulateTextField TextField: appmask['Pane \\'General  ...  Teams, Main Window\\'']['Edit \\'Enter a section name:\\''] Text: 'New guideline' Mode: UIAutomation.PopulateTextMode.Replace ClickType: UIAutomation.PopulateMouseClickType.SingleClick\n&quot;]" />
+			<float key="NextStepId" value="14.0" />
+			<string key="label_EventName" value="Open note taking app through messaging app" />
+			<string key="label_EventId" value="Event_664" />
+			<string key="Process_Name" value="onedriveforbusiness/teams/onenote" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="9.0" />
+			<string key="concept:name" value="Populate text field in window_in_Teams" />
+			<date key="time:timestamp" value="2021-12-15T06:54:35+00:00" />
+			<int key="@@index" value="12" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="StepId" value="13" />
+			<string key="RecordingId" value="Recording_144" />
+			<string key="ProcessId" value="Process_47" />
+			<date key="TimeStamp" value="2021-12-15T06:54:44+00:00" />
+			<string key="StepName" value="Drag and drop UI element in window_in_Teams" />
+			<string key="StepDescription" value="Button 'OK' in Edit 'Enter a section name:' in Pane 'General  ...  Teams, Main Window'" />
+			<string key="ApplicationProcessName" value="Teams" />
+			<string key="ApplicationParentWindowName" value="General (Project RoadMap) | Microsoft Teams, Main Window" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.DragAndDropElement MouseDownOffsetY: 0 MouseDownOffsetX: 7 RectangleEdgePointForMouseDown: UIAutomation.RectangleEdgePoint.MiddleCenter ControlToDrag: appmask['Pane \\'General  ...  Teams, Main Window\\'']['Edit \\'Enter a section name:\\''] MouseUpOffsetY: -3 MouseUpOffsetX: 17 RectangleEdgePointForMouseUp: UIAutomation.RectangleEdgePoint.MiddleCenter ControlToDropOver: appmask['Pane \\'General  ...  Teams, Main Window\\'']['Button \\'OK\\''] ClickType: UIAutomation.DragAndDropClickType.LeftClick\n&quot;]" />
+			<float key="NextStepId" value="15.0" />
+			<string key="label_EventName" value="Open note taking app through messaging app" />
+			<string key="label_EventId" value="Event_664" />
+			<string key="Process_Name" value="onedriveforbusiness/teams/onenote" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="3.0" />
+			<string key="concept:name" value="Drag and drop UI element in window_in_Teams" />
+			<date key="time:timestamp" value="2021-12-15T06:54:44+00:00" />
+			<int key="@@index" value="13" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="StepId" value="14" />
+			<string key="RecordingId" value="Recording_144" />
+			<string key="ProcessId" value="Process_47" />
+			<date key="TimeStamp" value="2021-12-15T06:54:47+00:00" />
+			<string key="StepName" value="Click UI element in window_in_Teams" />
+			<string key="StepDescription" value="Group 'Click here or press ENTER to create a new section.' in Pane 'General  ...  Teams, Main Window'" />
+			<string key="ApplicationProcessName" value="Teams" />
+			<string key="ApplicationParentWindowName" value="General (Project RoadMap) | Microsoft Teams, Main Window" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Pane \\'General  ...  Teams, Main Window\\'']['Group \\'Click here or press ENTER to create a new section.\\''] ClickType: UIAutomation.ClickType.LeftClick OffsetX: 124 OffsetY: 129 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.TopLeft\n&quot;]" />
+			<float key="NextStepId" value="16.0" />
+			<string key="label_EventName" value="Note down the feedback points in note taking app" />
+			<string key="label_EventId" value="Event_665" />
+			<string key="Process_Name" value="onedriveforbusiness/teams/onenote" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="2.0" />
+			<string key="concept:name" value="Click UI element in window_in_Teams" />
+			<date key="time:timestamp" value="2021-12-15T06:54:47+00:00" />
+			<int key="@@index" value="14" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="StepId" value="15" />
+			<string key="RecordingId" value="Recording_144" />
+			<string key="ProcessId" value="Process_47" />
+			<date key="TimeStamp" value="2021-12-15T06:54:49+00:00" />
+			<string key="StepName" value="Send keys" />
+			<string key="StepDescription" value="TextToSend:'{LControlKey}({V})'" />
+			<float key="ApplicationProcessName" value="nan" />
+			<float key="ApplicationParentWindowName" value="nan" />
+			<string key="AutomationStep" value="['WAIT 2\n', &quot;MouseAndKeyboard.SendKeys TextToSend: '{LControlKey}({V})'\n&quot;]" />
+			<float key="NextStepId" value="17.0" />
+			<string key="label_EventName" value="Note down the feedback points in note taking app" />
+			<string key="label_EventId" value="Event_665" />
+			<string key="Process_Name" value="onedriveforbusiness/teams/onenote" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="8.0" />
+			<string key="concept:name" value="Send keys" />
+			<date key="time:timestamp" value="2021-12-15T06:54:49+00:00" />
+			<int key="@@index" value="15" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="StepId" value="16" />
+			<string key="RecordingId" value="Recording_144" />
+			<string key="ProcessId" value="Process_47" />
+			<date key="TimeStamp" value="2021-12-15T06:54:57+00:00" />
+			<string key="StepName" value="Click UI element in window_in_Teams" />
+			<string key="StepDescription" value="Menu Item 'Open in Browser' in Pane 'General  ...  Teams, Main Window'" />
+			<string key="ApplicationProcessName" value="Teams" />
+			<string key="ApplicationParentWindowName" value="General (Project RoadMap) | Microsoft Teams, Main Window" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Pane \\'General  ...  Teams, Main Window\\'']['Menu Item \\'Open in Browser\\''] ClickType: UIAutomation.ClickType.LeftButtonDown OffsetX: -13 OffsetY: 0 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.MiddleRight\n&quot;]" />
+			<float key="NextStepId" value="18.0" />
+			<string key="label_EventName" value="Note down the feedback points in note taking app" />
+			<string key="label_EventId" value="Event_665" />
+			<string key="Process_Name" value="onedriveforbusiness/teams/onenote" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="45.0" />
+			<string key="concept:name" value="Click UI element in window_in_Teams" />
+			<date key="time:timestamp" value="2021-12-15T06:54:57+00:00" />
+			<int key="@@index" value="16" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="StepId" value="17" />
+			<string key="RecordingId" value="Recording_144" />
+			<string key="ProcessId" value="Process_47" />
+			<date key="TimeStamp" value="2021-12-15T06:55:42+00:00" />
+			<string key="StepName" value="Press button in window_in_msedge" />
+			<string key="StepDescription" value="Button 'Share' in Window 'My Notebook  ...  - Microsoft​ Edge'" />
+			<string key="ApplicationProcessName" value="msedge" />
+			<string key="ApplicationParentWindowName" value="My Notebook and 2 more pages - Personal - Microsoft​ Edge" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.PressButton Button: appmask['Window \\'My Notebook  ...  - Microsoft\u200b Edge\\'']['Button \\'Share\\'']\n&quot;]" />
+			<float key="NextStepId" value="19.0" />
+			<string key="label_EventName" value="Share the same with respective team members" />
+			<string key="label_EventId" value="Event_666" />
+			<string key="Process_Name" value="onedriveforbusiness/teams/onenote" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="6.0" />
+			<string key="concept:name" value="Press button in window_in_msedge" />
+			<date key="time:timestamp" value="2021-12-15T06:55:42+00:00" />
+			<int key="@@index" value="17" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="StepId" value="18" />
+			<string key="RecordingId" value="Recording_144" />
+			<string key="ProcessId" value="Process_47" />
+			<date key="TimeStamp" value="2021-12-15T06:55:48+00:00" />
+			<string key="StepName" value="Click UI element in window_in_msedge" />
+			<string key="StepDescription" value="Combo Box 'Enter a  ...  to share with.' in Window 'My Notebook  ...  - Microsoft​ Edge'" />
+			<string key="ApplicationProcessName" value="msedge" />
+			<string key="ApplicationParentWindowName" value="My Notebook and 2 more pages - Personal - Microsoft​ Edge" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Window \\'My Notebook  ...  - Microsoft\u200b Edge\\'']['Combo Box \\'Enter a  ...  to share with.\\''] ClickType: UIAutomation.ClickType.LeftButtonUp OffsetX: -62 OffsetY: 5 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.MiddleCenter\n&quot;]" />
+			<float key="NextStepId" value="20.0" />
+			<string key="label_EventName" value="Share the same with respective team members" />
+			<string key="label_EventId" value="Event_666" />
+			<string key="Process_Name" value="onedriveforbusiness/teams/onenote" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="3.0" />
+			<string key="concept:name" value="Click UI element in window_in_msedge" />
+			<date key="time:timestamp" value="2021-12-15T06:55:48+00:00" />
+			<int key="@@index" value="18" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="StepId" value="19" />
+			<string key="RecordingId" value="Recording_144" />
+			<string key="ProcessId" value="Process_47" />
+			<date key="TimeStamp" value="2021-12-15T06:55:51+00:00" />
+			<string key="StepName" value="Send keys" />
+			<string key="StepDescription" value="TextToSend:'{RShiftKey}(R)obin'" />
+			<float key="ApplicationProcessName" value="nan" />
+			<float key="ApplicationParentWindowName" value="nan" />
+			<string key="AutomationStep" value="['WAIT 2\n', &quot;MouseAndKeyboard.SendKeys TextToSend: '{RShiftKey}(R)obin'\n&quot;]" />
+			<float key="NextStepId" value="21.0" />
+			<string key="label_EventName" value="Share the same with respective team members" />
+			<string key="label_EventId" value="Event_666" />
+			<string key="Process_Name" value="onedriveforbusiness/teams/onenote" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="18.0" />
+			<string key="concept:name" value="Send keys" />
+			<date key="time:timestamp" value="2021-12-15T06:55:51+00:00" />
+			<int key="@@index" value="19" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="StepId" value="20" />
+			<string key="RecordingId" value="Recording_144" />
+			<string key="ProcessId" value="Process_47" />
+			<date key="TimeStamp" value="2021-12-15T06:56:09+00:00" />
+			<string key="StepName" value="final_Click UI element in window_in_msedge" />
+			<string key="StepDescription" value="List Item 'Name Surname' in Window 'My Notebook  ...  - Microsoft​ Edge'" />
+			<string key="ApplicationProcessName" value="msedge" />
+			<string key="ApplicationParentWindowName" value="My Notebook and 2 more pages - Personal - Microsoft​ Edge" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Window \\'My Notebook  ...  - Microsoft\u200b Edge\\'']['List Item \\'Name Surname\\''] ClickType: UIAutomation.ClickType.LeftButtonUp OffsetX: -7 OffsetY: 14 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.TopCenter\n&quot;, '# End of autogenerated actions using the desktop recorder\n']" />
+			<float key="NextStepId" value="nan" />
+			<string key="label_EventName" value="Share the same with respective team members" />
+			<string key="label_EventId" value="Event_666" />
+			<string key="Process_Name" value="onedriveforbusiness/teams/onenote" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="0.0" />
+			<string key="concept:name" value="final_Click UI element in window_in_msedge" />
+			<date key="time:timestamp" value="2021-12-15T06:56:09+00:00" />
+			<int key="@@index" value="20" />
+			<int key="@@case_index" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Recording_6" />
+		<event>
+			<int key="StepId" value="0" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:53:33+00:00" />
+			<string key="StepName" value="initial_Press button in window" />
+			<string key="StepDescription" value="Name RKH - Chrome - 1 running window in Quick Launch Bar" />
+			<float key="ApplicationProcessName" value="nan" />
+			<float key="ApplicationParentWindowName" value="nan" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.PressButton Button: appmask['Quick Launch Bar']['Name RKH - Chrome - 1 running window']\n&quot;]" />
+			<float key="NextStepId" value="2.0" />
+			<string key="label_EventName" value="Check the message received from Manager" />
+			<string key="label_EventId" value="Event_21" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="teams" />
+			<float key="duration" value="6.0" />
+			<string key="concept:name" value="initial_Press button in window" />
+			<date key="time:timestamp" value="2022-02-21T10:53:33+00:00" />
+			<int key="@@index" value="21" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="1" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:53:39+00:00" />
+			<string key="StepName" value="Click UI element in window_in_chrome" />
+			<string key="StepDescription" value="Hyperlink 'Available  ...  More options' in Pane 'Name Surname |  ...  Chrome - Name RKH'" />
+			<string key="ApplicationProcessName" value="chrome" />
+			<string key="ApplicationParentWindowName" value="Name Surname | Microsoft Teams - Google Chrome - Name RKH" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Pane \\'Name Surname |  ...  Chrome - Name RKH\\'']['Hyperlink \\'Available  ...  More options\\''] ClickType: UIAutomation.ClickType.LeftClick\n&quot;]" />
+			<float key="NextStepId" value="3.0" />
+			<string key="label_EventName" value="Check the message received from Manager" />
+			<string key="label_EventId" value="Event_21" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="teams" />
+			<float key="duration" value="3.0" />
+			<string key="concept:name" value="Click UI element in window_in_chrome" />
+			<date key="time:timestamp" value="2022-02-21T10:53:39+00:00" />
+			<int key="@@index" value="22" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="2" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:53:42+00:00" />
+			<string key="StepName" value="Click UI element in window_in_chrome" />
+			<string key="StepDescription" value="Group 'Can you  ...  Today at 4:23 PM.' in Pane 'Name Surname |  ...  Chrome - Name RKH'" />
+			<string key="ApplicationProcessName" value="chrome" />
+			<string key="ApplicationParentWindowName" value="Name Surname | Microsoft Teams - Google Chrome - Name RKH" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Pane \\'Name Surname |  ...  Chrome - Name RKH\\'']['Group \\'Can you  ...  Today at 4:23 PM.\\''] ClickType: UIAutomation.ClickType.LeftClick OffsetX: -24 OffsetY: -8 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.MiddleCenter\n&quot;]" />
+			<float key="NextStepId" value="4.0" />
+			<string key="label_EventName" value="Check the message received from Manager" />
+			<string key="label_EventId" value="Event_21" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="teams" />
+			<float key="duration" value="11.0" />
+			<string key="concept:name" value="Click UI element in window_in_chrome" />
+			<date key="time:timestamp" value="2022-02-21T10:53:42+00:00" />
+			<int key="@@index" value="23" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="3" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:53:53+00:00" />
+			<string key="StepName" value="Select menu option in window" />
+			<string key="StepDescription" value="Microsoft Edge (2) - 2 running windows in Quick Launch Bar" />
+			<float key="ApplicationProcessName" value="nan" />
+			<float key="ApplicationParentWindowName" value="nan" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.SelectMenuOption Control: appmask['Quick Launch Bar']['Microsoft Edge (2) - 2 running windows']\n&quot;]" />
+			<float key="NextStepId" value="5.0" />
+			<string key="label_EventName" value="Login to collaborative tool" />
+			<string key="label_EventId" value="Event_22" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sharepoint" />
+			<float key="duration" value="4.0" />
+			<string key="concept:name" value="Select menu option in window" />
+			<date key="time:timestamp" value="2022-02-21T10:53:53+00:00" />
+			<int key="@@index" value="24" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="4" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:53:57+00:00" />
+			<string key="StepName" value="Click UI element in window" />
+			<string key="StepDescription" value="List Item '(7  ...  - Microsoft​ Edge' in List 'Task Switcher'" />
+			<float key="ApplicationProcessName" value="nan" />
+			<string key="ApplicationParentWindowName" value="Task Switcher" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['List \\'Task Switcher\\'']['List Item \\'(7  ...  - Microsoft\u200b Edge\\''] ClickType: UIAutomation.ClickType.LeftClick OffsetX: 66 OffsetY: 18 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.MiddleLeft\n&quot;]" />
+			<float key="NextStepId" value="6.0" />
+			<string key="label_EventName" value="Login to collaborative tool" />
+			<string key="label_EventId" value="Event_22" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sharepoint" />
+			<float key="duration" value="4.0" />
+			<string key="concept:name" value="Click UI element in window" />
+			<date key="time:timestamp" value="2022-02-21T10:53:57+00:00" />
+			<int key="@@index" value="25" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="5" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:54:01+00:00" />
+			<string key="StepName" value="Press button in window_in_msedge" />
+			<string key="StepDescription" value="Button 'New Tab' in Window '(7 unread) -  ...  - Microsoft​ Edge'" />
+			<string key="ApplicationProcessName" value="msedge" />
+			<string key="ApplicationParentWindowName" value="(7 unread) - Email@Domain - Yahoo Mail and 5 more pages - [InPrivate] - Microsoft​ Edge" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.PressButton Button: appmask['Window \\'(7 unread) -  ...  - Microsoft\u200b Edge\\'']['Button \\'New Tab\\'']\n&quot;]" />
+			<float key="NextStepId" value="7.0" />
+			<string key="label_EventName" value="Login to collaborative tool" />
+			<string key="label_EventId" value="Event_22" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sharepoint" />
+			<float key="duration" value="9.0" />
+			<string key="concept:name" value="Press button in window_in_msedge" />
+			<date key="time:timestamp" value="2022-02-21T10:54:01+00:00" />
+			<int key="@@index" value="26" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="6" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:54:10+00:00" />
+			<string key="StepName" value="Populate text field in window_in_msedge" />
+			<string key="StepDescription" value="Edit 'Address and search bar' in Window 'New tab and  ...  - Microsoft​ Edge'; Text:'sharepoint login'" />
+			<string key="ApplicationProcessName" value="msedge" />
+			<string key="ApplicationParentWindowName" value="New tab and 6 more pages - [InPrivate] - Microsoft​ Edge" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.PopulateTextField TextField: appmask['Window \\'New tab and  ...  - Microsoft\u200b Edge\\'']['Edit \\'Address and search bar\\''] Text: 'sharepoint login' Mode: UIAutomation.PopulateTextMode.Replace ClickType: UIAutomation.PopulateMouseClickType.SingleClick\n&quot;, 'WAIT 2\n', &quot;MouseAndKeyboard.SendKeys TextToSend: '{Return}'\n&quot;]" />
+			<float key="NextStepId" value="8.0" />
+			<string key="label_EventName" value="Login to collaborative tool" />
+			<string key="label_EventId" value="Event_22" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sharepoint" />
+			<float key="duration" value="0.0" />
+			<string key="concept:name" value="Populate text field in window_in_msedge" />
+			<date key="time:timestamp" value="2022-02-21T10:54:10+00:00" />
+			<int key="@@index" value="27" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="7" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:54:10+00:00" />
+			<string key="StepName" value="Send keys" />
+			<string key="StepDescription" value="TextToSend:'{Return}'" />
+			<float key="ApplicationProcessName" value="nan" />
+			<float key="ApplicationParentWindowName" value="nan" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.PopulateTextField TextField: appmask['Window \\'New tab and  ...  - Microsoft\u200b Edge\\'']['Edit \\'Address and search bar\\''] Text: 'sharepoint login' Mode: UIAutomation.PopulateTextMode.Replace ClickType: UIAutomation.PopulateMouseClickType.SingleClick\n&quot;, 'WAIT 2\n', &quot;MouseAndKeyboard.SendKeys TextToSend: '{Return}'\n&quot;]" />
+			<float key="NextStepId" value="9.0" />
+			<string key="label_EventName" value="Login to collaborative tool" />
+			<string key="label_EventId" value="Event_22" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sharepoint" />
+			<float key="duration" value="4.0" />
+			<string key="concept:name" value="Send keys" />
+			<date key="time:timestamp" value="2022-02-21T10:54:10+00:00" />
+			<int key="@@index" value="28" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="8" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:54:14+00:00" />
+			<string key="StepName" value="Click UI element in window_in_msedge" />
+			<string key="StepDescription" value="Hyperlink 'Office 365 login' in Window 'sharepoint  ...  - Microsoft​ Edge'" />
+			<string key="ApplicationProcessName" value="msedge" />
+			<string key="ApplicationParentWindowName" value="sharepoint login - Search and 6 more pages - [InPrivate] - Microsoft​ Edge" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Window \\'sharepoint  ...  - Microsoft\u200b Edge\\'']['Hyperlink \\'Office 365 login\\''] ClickType: UIAutomation.ClickType.LeftClick OffsetX: -43 OffsetY: -1 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.MiddleRight\n&quot;]" />
+			<float key="NextStepId" value="10.0" />
+			<string key="label_EventName" value="Login to collaborative tool" />
+			<string key="label_EventId" value="Event_22" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sharepoint" />
+			<float key="duration" value="7.0" />
+			<string key="concept:name" value="Click UI element in window_in_msedge" />
+			<date key="time:timestamp" value="2022-02-21T10:54:14+00:00" />
+			<int key="@@index" value="29" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="9" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:54:21+00:00" />
+			<string key="StepName" value="Press button in window_in_msedge" />
+			<string key="StepDescription" value="Button 'App launcher' in Window 'Microsoft  ...  - Microsoft​ Edge'" />
+			<string key="ApplicationProcessName" value="msedge" />
+			<string key="ApplicationParentWindowName" value="Microsoft Office Home and 7 more pages - [InPrivate] - Microsoft​ Edge" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.PressButton Button: appmask['Window \\'Microsoft  ...  - Microsoft\u200b Edge\\'']['Button \\'App launcher\\'']\n&quot;]" />
+			<float key="NextStepId" value="11.0" />
+			<string key="label_EventName" value="Login to collaborative tool" />
+			<string key="label_EventId" value="Event_22" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sharepoint" />
+			<float key="duration" value="5.0" />
+			<string key="concept:name" value="Press button in window_in_msedge" />
+			<date key="time:timestamp" value="2022-02-21T10:54:21+00:00" />
+			<int key="@@index" value="30" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="10" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:54:26+00:00" />
+			<string key="StepName" value="Press button in window_in_msedge" />
+			<string key="StepDescription" value="Button 'All apps' in Window 'Microsoft  ...  - Microsoft​ Edge'" />
+			<string key="ApplicationProcessName" value="msedge" />
+			<string key="ApplicationParentWindowName" value="Microsoft Office Home and 7 more pages - [InPrivate] - Microsoft​ Edge" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.PressButton Button: appmask['Window \\'Microsoft  ...  - Microsoft\u200b Edge\\'']['Button \\'All apps\\'']\n&quot;]" />
+			<float key="NextStepId" value="12.0" />
+			<string key="label_EventName" value="Login to collaborative tool" />
+			<string key="label_EventId" value="Event_22" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sharepoint" />
+			<float key="duration" value="6.0" />
+			<string key="concept:name" value="Press button in window_in_msedge" />
+			<date key="time:timestamp" value="2022-02-21T10:54:26+00:00" />
+			<int key="@@index" value="31" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="11" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:54:32+00:00" />
+			<string key="StepName" value="Populate text field in window_in_msedge" />
+			<string key="StepDescription" value="Edit 'Search all of  ...  bar as you type.' in Window 'Microsoft  ...  - Microsoft​ Edge'; Text:'sharepoint'" />
+			<string key="ApplicationProcessName" value="msedge" />
+			<string key="ApplicationParentWindowName" value="Microsoft Office Home and 7 more pages - [InPrivate] - Microsoft​ Edge" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.PopulateTextField TextField: appmask['Window \\'Microsoft  ...  - Microsoft\u200b Edge\\'']['Edit \\'Search all of  ...  bar as you type.\\''] Text: 'sharepoint' Mode: UIAutomation.PopulateTextMode.Replace ClickType: UIAutomation.PopulateMouseClickType.SingleClick\n&quot;]" />
+			<float key="NextStepId" value="13.0" />
+			<string key="label_EventName" value="Login to collaborative tool" />
+			<string key="label_EventId" value="Event_22" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sharepoint" />
+			<float key="duration" value="3.0" />
+			<string key="concept:name" value="Populate text field in window_in_msedge" />
+			<date key="time:timestamp" value="2022-02-21T10:54:32+00:00" />
+			<int key="@@index" value="32" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="12" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:54:35+00:00" />
+			<string key="StepName" value="Click UI element in window_in_msedge" />
+			<string key="StepDescription" value="Hyperlink 'SharePoint' in Window 'Microsoft  ...  - Microsoft​ Edge'" />
+			<string key="ApplicationProcessName" value="msedge" />
+			<string key="ApplicationParentWindowName" value="Microsoft Office Home and 7 more pages - [InPrivate] - Microsoft​ Edge" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Window \\'Microsoft  ...  - Microsoft\u200b Edge\\'']['Hyperlink \\'SharePoint\\''] ClickType: UIAutomation.ClickType.LeftClick OffsetX: 99 OffsetY: 1 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.MiddleLeft\n&quot;]" />
+			<float key="NextStepId" value="14.0" />
+			<string key="label_EventName" value="Login to collaborative tool" />
+			<string key="label_EventId" value="Event_22" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sharepoint" />
+			<float key="duration" value="6.0" />
+			<string key="concept:name" value="Click UI element in window_in_msedge" />
+			<date key="time:timestamp" value="2022-02-21T10:54:35+00:00" />
+			<int key="@@index" value="33" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="13" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:54:41+00:00" />
+			<string key="StepName" value="Click UI element in window_in_msedge" />
+			<string key="StepDescription" value="Hyperlink 'Project RoadMap' in Window 'SharePoint  ...  - Microsoft​ Edge' 2" />
+			<string key="ApplicationProcessName" value="msedge" />
+			<string key="ApplicationParentWindowName" value="SharePoint and 8 more pages - [InPrivate] - Microsoft​ Edge" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Window \\'SharePoint  ...  - Microsoft\u200b Edge\\' 2']['Hyperlink \\'Project RoadMap\\''] ClickType: UIAutomation.ClickType.LeftClick OffsetX: 30 OffsetY: 6 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.MiddleCenter\n&quot;]" />
+			<float key="NextStepId" value="15.0" />
+			<string key="label_EventName" value="Locate the document require to send to Operation department" />
+			<string key="label_EventId" value="Event_23" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sharepoint" />
+			<float key="duration" value="9.0" />
+			<string key="concept:name" value="Click UI element in window_in_msedge" />
+			<date key="time:timestamp" value="2022-02-21T10:54:41+00:00" />
+			<int key="@@index" value="34" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="14" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:54:50+00:00" />
+			<string key="StepName" value="Click UI element in window_in_msedge" />
+			<string key="StepDescription" value="Hyperlink 'Shared  ...  31 minutes ago' in Window 'Project  ...  - Microsoft​ Edge'" />
+			<string key="ApplicationProcessName" value="msedge" />
+			<string key="ApplicationParentWindowName" value="Project RoadMap - Home and 8 more pages - [InPrivate] - Microsoft​ Edge" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Window \\'Project  ...  - Microsoft\u200b Edge\\'']['Hyperlink \\'Shared  ...  31 minutes ago\\''] ClickType: UIAutomation.ClickType.LeftClick OffsetX: 43 OffsetY: -42 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.MiddleCenter\n&quot;]" />
+			<float key="NextStepId" value="16.0" />
+			<string key="label_EventName" value="Locate the document require to send to Operation department" />
+			<string key="label_EventId" value="Event_23" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sharepoint" />
+			<float key="duration" value="6.0" />
+			<string key="concept:name" value="Click UI element in window_in_msedge" />
+			<date key="time:timestamp" value="2022-02-21T10:54:50+00:00" />
+			<int key="@@index" value="35" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="15" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:54:56+00:00" />
+			<string key="StepName" value="Press button in window_in_msedge" />
+			<string key="StepDescription" value="Button 'File' in Window 'Firefighting  ...  - Microsoft​ Edge'" />
+			<string key="ApplicationProcessName" value="msedge" />
+			<string key="ApplicationParentWindowName" value="Firefighting mockdrill agenda.docx and 8 more pages - [InPrivate] - Microsoft​ Edge" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.PressButton Button: appmask['Window \\'Firefighting  ...  - Microsoft\u200b Edge\\'']['Button \\'File\\'']\n&quot;]" />
+			<float key="NextStepId" value="17.0" />
+			<string key="label_EventName" value=" Export the document" />
+			<string key="label_EventId" value="Event_24" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sharepoint" />
+			<float key="duration" value="4.0" />
+			<string key="concept:name" value="Press button in window_in_msedge" />
+			<date key="time:timestamp" value="2022-02-21T10:54:56+00:00" />
+			<int key="@@index" value="36" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="16" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:55:00+00:00" />
+			<string key="StepName" value="Click UI element in window_in_msedge" />
+			<string key="StepDescription" value="List Item 'Print' in Window 'Firefighting  ...  - Microsoft​ Edge'" />
+			<string key="ApplicationProcessName" value="msedge" />
+			<string key="ApplicationParentWindowName" value="Firefighting mockdrill agenda.docx and 8 more pages - [InPrivate] - Microsoft​ Edge" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Window \\'Firefighting  ...  - Microsoft\u200b Edge\\'']['List Item \\'Print\\''] ClickType: UIAutomation.ClickType.LeftClick OffsetX: -46 OffsetY: -1 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.MiddleRight\n&quot;]" />
+			<float key="NextStepId" value="18.0" />
+			<string key="label_EventName" value=" Export the document" />
+			<string key="label_EventId" value="Event_24" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sharepoint" />
+			<float key="duration" value="2.0" />
+			<string key="concept:name" value="Click UI element in window_in_msedge" />
+			<date key="time:timestamp" value="2022-02-21T10:55:00+00:00" />
+			<int key="@@index" value="37" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="17" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:55:02+00:00" />
+			<string key="StepName" value="Click UI element in window_in_msedge" />
+			<string key="StepDescription" value="List Item 'Print Print this document.' in Window 'Firefighting  ...  - Microsoft​ Edge'" />
+			<string key="ApplicationProcessName" value="msedge" />
+			<string key="ApplicationParentWindowName" value="Firefighting mockdrill agenda.docx and 8 more pages - [InPrivate] - Microsoft​ Edge" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Window \\'Firefighting  ...  - Microsoft\u200b Edge\\'']['List Item \\'Print Print this document.\\''] ClickType: UIAutomation.ClickType.LeftClick OffsetX: -60 OffsetY: -2 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.MiddleCenter\n&quot;]" />
+			<float key="NextStepId" value="19.0" />
+			<string key="label_EventName" value=" Export the document" />
+			<string key="label_EventId" value="Event_24" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sharepoint" />
+			<float key="duration" value="6.0" />
+			<string key="concept:name" value="Click UI element in window_in_msedge" />
+			<date key="time:timestamp" value="2022-02-21T10:55:02+00:00" />
+			<int key="@@index" value="38" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="18" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:55:08+00:00" />
+			<string key="StepName" value="Press button in window_in_msedge" />
+			<string key="StepDescription" value="Button 'Print' in Window 'Firefighting  ...  - Microsoft​ Edge'" />
+			<string key="ApplicationProcessName" value="msedge" />
+			<string key="ApplicationParentWindowName" value="Firefighting mockdrill agenda.docx and 8 more pages - [InPrivate] - Microsoft​ Edge" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.PressButton Button: appmask['Window \\'Firefighting  ...  - Microsoft\u200b Edge\\'']['Button \\'Print\\'']\n&quot;]" />
+			<float key="NextStepId" value="20.0" />
+			<string key="label_EventName" value=" Export the document" />
+			<string key="label_EventId" value="Event_24" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sharepoint" />
+			<float key="duration" value="3.0" />
+			<string key="concept:name" value="Press button in window_in_msedge" />
+			<date key="time:timestamp" value="2022-02-21T10:55:08+00:00" />
+			<int key="@@index" value="39" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="19" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:55:11+00:00" />
+			<string key="StepName" value="Click UI element in window_in_msedge" />
+			<string key="StepDescription" value="Tree Item 'Desktop' in Window 'Firefighting  ...  - Microsoft​ Edge'" />
+			<string key="ApplicationProcessName" value="msedge" />
+			<string key="ApplicationParentWindowName" value="Firefighting mockdrill agenda.docx and 8 more pages - [InPrivate] - Microsoft​ Edge" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Window \\'Firefighting  ...  - Microsoft\u200b Edge\\'']['Tree Item \\'Desktop\\''] ClickType: UIAutomation.ClickType.LeftClick OffsetX: -4 OffsetY: -2 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.MiddleCenter\n&quot;]" />
+			<float key="NextStepId" value="21.0" />
+			<string key="label_EventName" value=" Export the document" />
+			<string key="label_EventId" value="Event_24" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sharepoint" />
+			<float key="duration" value="13.0" />
+			<string key="concept:name" value="Click UI element in window_in_msedge" />
+			<date key="time:timestamp" value="2022-02-21T10:55:11+00:00" />
+			<int key="@@index" value="40" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="20" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:55:24+00:00" />
+			<string key="StepName" value="Populate text field in window_in_msedge" />
+			<string key="StepDescription" value="Edit 'File name:' in Window 'Firefighting  ...  - Microsoft​ Edge'; Text:'Fire fighting mock drill'" />
+			<string key="ApplicationProcessName" value="msedge" />
+			<string key="ApplicationParentWindowName" value="Firefighting mockdrill agenda.docx and 8 more pages - [InPrivate] - Microsoft​ Edge" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.PopulateTextField TextField: appmask['Window \\'Firefighting  ...  - Microsoft\u200b Edge\\'']['Edit \\'File name:\\''] Text: 'Fire fighting mock drill' Mode: UIAutomation.PopulateTextMode.Replace ClickType: UIAutomation.PopulateMouseClickType.SingleClick\n&quot;]" />
+			<float key="NextStepId" value="22.0" />
+			<string key="label_EventName" value=" Export the document" />
+			<string key="label_EventId" value="Event_24" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sharepoint" />
+			<float key="duration" value="3.0" />
+			<string key="concept:name" value="Populate text field in window_in_msedge" />
+			<date key="time:timestamp" value="2022-02-21T10:55:24+00:00" />
+			<int key="@@index" value="41" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="21" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:55:27+00:00" />
+			<string key="StepName" value="Press button in window_in_msedge" />
+			<string key="StepDescription" value="Button 'Save' in Window 'Firefighting  ...  - Microsoft​ Edge'" />
+			<string key="ApplicationProcessName" value="msedge" />
+			<string key="ApplicationParentWindowName" value="Firefighting mockdrill agenda.docx and 8 more pages - [InPrivate] - Microsoft​ Edge" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.PressButton Button: appmask['Window \\'Firefighting  ...  - Microsoft\u200b Edge\\'']['Button \\'Save\\'']\n&quot;]" />
+			<float key="NextStepId" value="23.0" />
+			<string key="label_EventName" value=" Export the document" />
+			<string key="label_EventId" value="Event_24" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sharepoint" />
+			<float key="duration" value="6.0" />
+			<string key="concept:name" value="Press button in window_in_msedge" />
+			<date key="time:timestamp" value="2022-02-21T10:55:27+00:00" />
+			<int key="@@index" value="42" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="22" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:55:33+00:00" />
+			<string key="StepName" value="Press button in window_in_msedge" />
+			<string key="StepDescription" value="Button 'New Tab' in Window '(7 unread) -  ...  - Microsoft​ Edge'" />
+			<string key="ApplicationProcessName" value="msedge" />
+			<string key="ApplicationParentWindowName" value="(7 unread) - Email@Domain - Yahoo Mail and 5 more pages - [InPrivate] - Microsoft​ Edge" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.PressButton Button: appmask['Window \\'(7 unread) -  ...  - Microsoft\u200b Edge\\'']['Button \\'New Tab\\'']\n&quot;]" />
+			<float key="NextStepId" value="24.0" />
+			<string key="label_EventName" value="Send the document to Manager via mail" />
+			<string key="label_EventId" value="Event_25" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sendmail" />
+			<float key="duration" value="5.0" />
+			<string key="concept:name" value="Press button in window_in_msedge" />
+			<date key="time:timestamp" value="2022-02-21T10:55:33+00:00" />
+			<int key="@@index" value="43" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="23" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:55:38+00:00" />
+			<string key="StepName" value="Populate text field in window_in_msedge" />
+			<string key="StepDescription" value="Edit 'Address and search bar' in Window 'New tab and  ...  - Microsoft​ Edge' 2; Text:'yahoo mail'" />
+			<string key="ApplicationProcessName" value="msedge" />
+			<string key="ApplicationParentWindowName" value="New tab and 9 more pages - [InPrivate] - Microsoft​ Edge" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.PopulateTextField TextField: appmask['Window \\'New tab and  ...  - Microsoft\u200b Edge\\' 2']['Edit \\'Address and search bar\\''] Text: 'yahoo mail' Mode: UIAutomation.PopulateTextMode.Replace ClickType: UIAutomation.PopulateMouseClickType.SingleClick\n&quot;]" />
+			<float key="NextStepId" value="25.0" />
+			<string key="label_EventName" value="Send the document to Manager via mail" />
+			<string key="label_EventId" value="Event_25" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sendmail" />
+			<float key="duration" value="3.0" />
+			<string key="concept:name" value="Populate text field in window_in_msedge" />
+			<date key="time:timestamp" value="2022-02-21T10:55:38+00:00" />
+			<int key="@@index" value="44" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="24" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:55:41+00:00" />
+			<string key="StepName" value="Send keys" />
+			<string key="StepDescription" value="TextToSend:'{Return}'" />
+			<float key="ApplicationProcessName" value="nan" />
+			<float key="ApplicationParentWindowName" value="nan" />
+			<string key="AutomationStep" value="['WAIT 2\n', &quot;MouseAndKeyboard.SendKeys TextToSend: '{Return}'\n&quot;]" />
+			<float key="NextStepId" value="26.0" />
+			<string key="label_EventName" value="Send the document to Manager via mail" />
+			<string key="label_EventId" value="Event_25" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sendmail" />
+			<float key="duration" value="4.0" />
+			<string key="concept:name" value="Send keys" />
+			<date key="time:timestamp" value="2022-02-21T10:55:41+00:00" />
+			<int key="@@index" value="45" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="25" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:55:45+00:00" />
+			<string key="StepName" value="Click UI element in window_in_msedge" />
+			<string key="StepDescription" value="Hyperlink 'Yahoo Mail' in Window 'yahoo mail -  ...  - Microsoft​ Edge'" />
+			<string key="ApplicationProcessName" value="msedge" />
+			<string key="ApplicationParentWindowName" value="yahoo mail - Search and 9 more pages - [InPrivate] - Microsoft​ Edge" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Window \\'yahoo mail -  ...  - Microsoft\u200b Edge\\'']['Hyperlink \\'Yahoo Mail\\''] ClickType: UIAutomation.ClickType.LeftClick OffsetX: -15 OffsetY: 1 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.MiddleRight\n&quot;]" />
+			<float key="NextStepId" value="27.0" />
+			<string key="label_EventName" value="Send the document to Manager via mail" />
+			<string key="label_EventId" value="Event_25" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sendmail" />
+			<float key="duration" value="5.0" />
+			<string key="concept:name" value="Click UI element in window_in_msedge" />
+			<date key="time:timestamp" value="2022-02-21T10:55:45+00:00" />
+			<int key="@@index" value="46" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="26" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:55:50+00:00" />
+			<string key="StepName" value="Press button in window_in_msedge" />
+			<string key="StepDescription" value="Button 'Compose' in Window '(7 unread) -  ...  - Microsoft​ Edge' 2" />
+			<string key="ApplicationProcessName" value="msedge" />
+			<string key="ApplicationParentWindowName" value="(7 unread) - Email@Domain - Yahoo Mail and 10 more pages - [InPrivate] - Microsoft​ Edge" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.PressButton Button: appmask['Window \\'(7 unread) -  ...  - Microsoft\u200b Edge\\' 2']['Button \\'Compose\\'']\n&quot;]" />
+			<float key="NextStepId" value="28.0" />
+			<string key="label_EventName" value="Send the document to Manager via mail" />
+			<string key="label_EventId" value="Event_25" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sendmail" />
+			<float key="duration" value="2.0" />
+			<string key="concept:name" value="Press button in window_in_msedge" />
+			<date key="time:timestamp" value="2022-02-21T10:55:50+00:00" />
+			<int key="@@index" value="47" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="27" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:55:52+00:00" />
+			<string key="StepName" value="Click UI element in window_in_msedge" />
+			<string key="StepDescription" value="Combo Box ' ...  D_X p_a L_0 B_0' in Window '(7 unread) -  ...  - Microsoft​ Edge' 2" />
+			<string key="ApplicationProcessName" value="msedge" />
+			<string key="ApplicationParentWindowName" value="(7 unread) - Email@Domain - Yahoo Mail and 10 more pages - [InPrivate] - Microsoft​ Edge" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Window \\'(7 unread) -  ...  - Microsoft\u200b Edge\\' 2']['Combo Box \\' ...  D_X p_a L_0 B_0\\''] ClickType: UIAutomation.ClickType.LeftClick OffsetX: 28 OffsetY: 3 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.MiddleLeft\n&quot;]" />
+			<float key="NextStepId" value="29.0" />
+			<string key="label_EventName" value="Send the document to Manager via mail" />
+			<string key="label_EventId" value="Event_25" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sendmail" />
+			<float key="duration" value="1.0" />
+			<string key="concept:name" value="Click UI element in window_in_msedge" />
+			<date key="time:timestamp" value="2022-02-21T10:55:52+00:00" />
+			<int key="@@index" value="48" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="28" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:55:53+00:00" />
+			<string key="StepName" value="Send keys" />
+			<string key="StepDescription" value="TextToSend:'Namede'" />
+			<float key="ApplicationProcessName" value="nan" />
+			<float key="ApplicationParentWindowName" value="nan" />
+			<string key="AutomationStep" value="['WAIT 2\n', &quot;MouseAndKeyboard.SendKeys TextToSend: 'Namede'\n&quot;]" />
+			<float key="NextStepId" value="30.0" />
+			<string key="label_EventName" value="Send the document to Manager via mail" />
+			<string key="label_EventId" value="Event_25" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sendmail" />
+			<float key="duration" value="24.0" />
+			<string key="concept:name" value="Send keys" />
+			<date key="time:timestamp" value="2022-02-21T10:55:53+00:00" />
+			<int key="@@index" value="49" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="29" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:56:17+00:00" />
+			<string key="StepName" value="Populate text field in window_in_msedge" />
+			<string key="StepDescription" value="Edit 'Subject' in Window '(7 unread) -  ...  - Microsoft​ Edge' 2; Text:'Regarding fire fighting mock drill'" />
+			<string key="ApplicationProcessName" value="msedge" />
+			<string key="ApplicationParentWindowName" value="(7 unread) - Email@Domain - Yahoo Mail and 10 more pages - [InPrivate] - Microsoft​ Edge" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.PopulateTextField TextField: appmask['Window \\'(7 unread) -  ...  - Microsoft\u200b Edge\\' 2']['Edit \\'Subject\\''] Text: 'Regarding fire fighting mock drill' Mode: UIAutomation.PopulateTextMode.Replace ClickType: UIAutomation.PopulateMouseClickType.SingleClick\n&quot;]" />
+			<float key="NextStepId" value="31.0" />
+			<string key="label_EventName" value="Send the document to Manager via mail" />
+			<string key="label_EventId" value="Event_25" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sendmail" />
+			<float key="duration" value="6.0" />
+			<string key="concept:name" value="Populate text field in window_in_msedge" />
+			<date key="time:timestamp" value="2022-02-21T10:56:17+00:00" />
+			<int key="@@index" value="50" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="30" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:56:23+00:00" />
+			<string key="StepName" value="Populate text field in window_in_msedge" />
+			<string key="StepDescription" value="Edit 'Message body' in Window '(7 unread) -  ...  - Microsoft​ Edge' 2; Text:'Hello,'" />
+			<string key="ApplicationProcessName" value="msedge" />
+			<string key="ApplicationParentWindowName" value="(7 unread) - Email@Domain - Yahoo Mail and 10 more pages - [InPrivate] - Microsoft​ Edge" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.PopulateTextField TextField: appmask['Window \\'(7 unread) -  ...  - Microsoft\u200b Edge\\' 2']['Edit \\'Message body\\''] Text: 'Hello,' Mode: UIAutomation.PopulateTextMode.Replace ClickType: UIAutomation.PopulateMouseClickType.SingleClick\n&quot;]" />
+			<float key="NextStepId" value="32.0" />
+			<string key="label_EventName" value="Send the document to Manager via mail" />
+			<string key="label_EventId" value="Event_25" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sendmail" />
+			<float key="duration" value="1.0" />
+			<string key="concept:name" value="Populate text field in window_in_msedge" />
+			<date key="time:timestamp" value="2022-02-21T10:56:23+00:00" />
+			<int key="@@index" value="51" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="31" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:56:24+00:00" />
+			<string key="StepName" value="Send keys" />
+			<string key="StepDescription" value="TextToSend:'{Return}'" />
+			<float key="ApplicationProcessName" value="nan" />
+			<float key="ApplicationParentWindowName" value="nan" />
+			<string key="AutomationStep" value="['WAIT 2\n', &quot;MouseAndKeyboard.SendKeys TextToSend: '{Return}'\n&quot;]" />
+			<float key="NextStepId" value="33.0" />
+			<string key="label_EventName" value="Send the document to Manager via mail" />
+			<string key="label_EventId" value="Event_25" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sendmail" />
+			<float key="duration" value="1.0" />
+			<string key="concept:name" value="Send keys" />
+			<date key="time:timestamp" value="2022-02-21T10:56:24+00:00" />
+			<int key="@@index" value="52" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="32" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:56:25+00:00" />
+			<string key="StepName" value="Populate text field in window_in_msedge" />
+			<string key="StepDescription" value="Edit 'Message body' in Window '(7 unread) -  ...  - Microsoft​ Edge' 2; Text:'''Hello,&#10;PFA'''" />
+			<string key="ApplicationProcessName" value="msedge" />
+			<string key="ApplicationParentWindowName" value="(7 unread) - Email@Domain - Yahoo Mail and 10 more pages - [InPrivate] - Microsoft​ Edge" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.PopulateTextField TextField: appmask['Window \\'(7 unread) -  ...  - Microsoft\u200b Edge\\' 2']['Edit \\'Message body\\''] Text: '''Hello,\n&quot;, &quot;PFA''' Mode: UIAutomation.PopulateTextMode.Replace ClickType: UIAutomation.PopulateMouseClickType.SingleClick\n&quot;]" />
+			<float key="NextStepId" value="34.0" />
+			<string key="label_EventName" value="Send the document to Manager via mail" />
+			<string key="label_EventId" value="Event_25" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sendmail" />
+			<float key="duration" value="4.0" />
+			<string key="concept:name" value="Populate text field in window_in_msedge" />
+			<date key="time:timestamp" value="2022-02-21T10:56:25+00:00" />
+			<int key="@@index" value="53" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="33" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:56:29+00:00" />
+			<string key="StepName" value="Press button in window_in_msedge" />
+			<string key="StepDescription" value="Button 'Attach files' in Window '(7 unread) -  ...  - Microsoft​ Edge' 2" />
+			<string key="ApplicationProcessName" value="msedge" />
+			<string key="ApplicationParentWindowName" value="(7 unread) - Email@Domain - Yahoo Mail and 10 more pages - [InPrivate] - Microsoft​ Edge" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.PressButton Button: appmask['Window \\'(7 unread) -  ...  - Microsoft\u200b Edge\\' 2']['Button \\'Attach files\\'']\n&quot;]" />
+			<float key="NextStepId" value="35.0" />
+			<string key="label_EventName" value="Send the document to Manager via mail" />
+			<string key="label_EventId" value="Event_25" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sendmail" />
+			<float key="duration" value="2.0" />
+			<string key="concept:name" value="Press button in window_in_msedge" />
+			<date key="time:timestamp" value="2022-02-21T10:56:29+00:00" />
+			<int key="@@index" value="54" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="34" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:56:31+00:00" />
+			<string key="StepName" value="Select menu option in window_in_msedge" />
+			<string key="StepDescription" value="Menu Item 'Attach files from computer' in Window '(7 unread) -  ...  - Microsoft​ Edge' 2" />
+			<string key="ApplicationProcessName" value="msedge" />
+			<string key="ApplicationParentWindowName" value="(7 unread) - Email@Domain - Yahoo Mail and 10 more pages - [InPrivate] - Microsoft​ Edge" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.SelectMenuOption Control: appmask['Window \\'(7 unread) -  ...  - Microsoft\u200b Edge\\' 2']['Menu Item \\'Attach files from computer\\'']\n&quot;]" />
+			<float key="NextStepId" value="36.0" />
+			<string key="label_EventName" value="Send the document to Manager via mail" />
+			<string key="label_EventId" value="Event_25" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sendmail" />
+			<float key="duration" value="2.0" />
+			<string key="concept:name" value="Select menu option in window_in_msedge" />
+			<date key="time:timestamp" value="2022-02-21T10:56:31+00:00" />
+			<int key="@@index" value="55" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="35" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:56:33+00:00" />
+			<string key="StepName" value="Click UI element in window_in_msedge" />
+			<string key="StepDescription" value="Tree Item 'Desktop' in Window '(7 unread) -  ...  - Microsoft​ Edge' 2" />
+			<string key="ApplicationProcessName" value="msedge" />
+			<string key="ApplicationParentWindowName" value="(7 unread) - Email@Domain - Yahoo Mail and 10 more pages - [InPrivate] - Microsoft​ Edge" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Window \\'(7 unread) -  ...  - Microsoft\u200b Edge\\' 2']['Tree Item \\'Desktop\\''] ClickType: UIAutomation.ClickType.LeftClick OffsetX: -12 OffsetY: 1 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.MiddleRight\n&quot;]" />
+			<float key="NextStepId" value="37.0" />
+			<string key="label_EventName" value="Send the document to Manager via mail" />
+			<string key="label_EventId" value="Event_25" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sendmail" />
+			<float key="duration" value="2.0" />
+			<string key="concept:name" value="Click UI element in window_in_msedge" />
+			<date key="time:timestamp" value="2022-02-21T10:56:33+00:00" />
+			<int key="@@index" value="56" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="36" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:56:35+00:00" />
+			<string key="StepName" value="Click UI element in window_in_msedge" />
+			<string key="StepDescription" value="Edit 'Name' in Window '(7 unread) -  ...  - Microsoft​ Edge' 2" />
+			<string key="ApplicationProcessName" value="msedge" />
+			<string key="ApplicationParentWindowName" value="(7 unread) - Email@Domain - Yahoo Mail and 10 more pages - [InPrivate] - Microsoft​ Edge" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Window \\'(7 unread) -  ...  - Microsoft\u200b Edge\\' 2']['Edit \\'Name\\''] ClickType: UIAutomation.ClickType.LeftClick OffsetX: 13 OffsetY: -2 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.MiddleCenter\n&quot;]" />
+			<float key="NextStepId" value="38.0" />
+			<string key="label_EventName" value="Send the document to Manager via mail" />
+			<string key="label_EventId" value="Event_25" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sendmail" />
+			<float key="duration" value="9.0" />
+			<string key="concept:name" value="Click UI element in window_in_msedge" />
+			<date key="time:timestamp" value="2022-02-21T10:56:35+00:00" />
+			<int key="@@index" value="57" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="37" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:56:44+00:00" />
+			<string key="StepName" value="Press button in window_in_msedge" />
+			<string key="StepDescription" value="Button 'Open' in Window '(7 unread) -  ...  - Microsoft​ Edge' 2" />
+			<string key="ApplicationProcessName" value="msedge" />
+			<string key="ApplicationParentWindowName" value="(7 unread) - Email@Domain - Yahoo Mail and 10 more pages - [InPrivate] - Microsoft​ Edge" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.PressButton Button: appmask['Window \\'(7 unread) -  ...  - Microsoft\u200b Edge\\' 2']['Button \\'Open\\'']\n&quot;]" />
+			<float key="NextStepId" value="39.0" />
+			<string key="label_EventName" value="Send the document to Manager via mail" />
+			<string key="label_EventId" value="Event_25" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sendmail" />
+			<float key="duration" value="9.0" />
+			<string key="concept:name" value="Press button in window_in_msedge" />
+			<date key="time:timestamp" value="2022-02-21T10:56:44+00:00" />
+			<int key="@@index" value="58" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="StepId" value="38" />
+			<string key="RecordingId" value="Recording_6" />
+			<string key="ProcessId" value="Process_5" />
+			<date key="TimeStamp" value="2022-02-21T10:56:53+00:00" />
+			<string key="StepName" value="final_Press button in window_in_msedge" />
+			<string key="StepDescription" value="Button 'Send' in Window '(7 unread) -  ...  - Microsoft​ Edge' 2" />
+			<string key="ApplicationProcessName" value="msedge" />
+			<string key="ApplicationParentWindowName" value="(7 unread) - Email@Domain - Yahoo Mail and 10 more pages - [InPrivate] - Microsoft​ Edge" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.PressButton Button: appmask['Window \\'(7 unread) -  ...  - Microsoft\u200b Edge\\' 2']['Button \\'Send\\'']\n&quot;, '# End of autogenerated actions using the desktop recorder\n']" />
+			<float key="NextStepId" value="nan" />
+			<string key="label_EventName" value="Send the document to Manager via mail" />
+			<string key="label_EventId" value="Event_25" />
+			<string key="Process_Name" value="sharepoint/teams/sendmail" />
+			<string key="Connectors" value="sendmail" />
+			<float key="duration" value="0.0" />
+			<string key="concept:name" value="final_Press button in window_in_msedge" />
+			<date key="time:timestamp" value="2022-02-21T10:56:53+00:00" />
+			<int key="@@index" value="59" />
+			<int key="@@case_index" value="1" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Recording_66" />
+		<event>
+			<int key="StepId" value="0" />
+			<string key="RecordingId" value="Recording_66" />
+			<string key="ProcessId" value="Process_20" />
+			<date key="TimeStamp" value="2022-03-01T05:08:47+00:00" />
+			<string key="StepName" value="initial_Press button in window" />
+			<string key="StepDescription" value="Microsoft Teams - 1 running window in Quick Launch Bar" />
+			<float key="ApplicationProcessName" value="nan" />
+			<float key="ApplicationParentWindowName" value="nan" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.PressButton Button: appmask['Quick Launch Bar']['Microsoft Teams - 1 running window']\n&quot;]" />
+			<float key="NextStepId" value="2.0" />
+			<string key="label_EventName" value=" Check the message in messaging app" />
+			<string key="label_EventId" value="Event_333" />
+			<string key="Process_Name" value="teams/excelonlinebusiness/dynamicscrmonline" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="3.0" />
+			<string key="concept:name" value="initial_Press button in window" />
+			<date key="time:timestamp" value="2022-03-01T05:08:47+00:00" />
+			<int key="@@index" value="60" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="StepId" value="1" />
+			<string key="RecordingId" value="Recording_66" />
+			<string key="ProcessId" value="Process_20" />
+			<date key="TimeStamp" value="2022-03-01T05:08:50+00:00" />
+			<string key="StepName" value="Click UI element in window_in_Teams" />
+			<string key="StepDescription" value="Text 'Please add new  ...  on cloud s' in Pane 'Name and Name | Microsoft Teams, Main Window'" />
+			<string key="ApplicationProcessName" value="Teams" />
+			<string key="ApplicationParentWindowName" value="Name and Name | Microsoft Teams, Main Window" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Pane \\'Name and Name | Microsoft Teams, Main Window\\'']['Text \\'Please add new  ...  on cloud s\\''] ClickType: UIAutomation.ClickType.LeftClick OffsetX: 0 OffsetY: 2 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.MiddleCenter\n&quot;]" />
+			<float key="NextStepId" value="4.0" />
+			<string key="label_EventName" value=" Check the message in messaging app" />
+			<string key="label_EventId" value="Event_333" />
+			<string key="Process_Name" value="teams/excelonlinebusiness/dynamicscrmonline" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="7.0" />
+			<string key="concept:name" value="Click UI element in window_in_Teams" />
+			<date key="time:timestamp" value="2022-03-01T05:08:50+00:00" />
+			<int key="@@index" value="61" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="StepId" value="2" />
+			<string key="RecordingId" value="Recording_66" />
+			<string key="ProcessId" value="Process_20" />
+			<date key="TimeStamp" value="2022-03-01T05:08:57+00:00" />
+			<string key="StepName" value="Click UI element in window_in_Teams" />
+			<string key="StepDescription" value="Text 'Please add new  ...  on cloud storage.' in Pane 'Name and Name | Microsoft Teams, Main Window'" />
+			<string key="ApplicationProcessName" value="Teams" />
+			<string key="ApplicationParentWindowName" value="Name and Name | Microsoft Teams, Main Window" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Pane \\'Name and Name | Microsoft Teams, Main Window\\'']['Text \\'Please add new  ...  on cloud storage.\\''] ClickType: UIAutomation.ClickType.LeftClick OffsetX: 185 OffsetY: 0 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.MiddleLeft\n&quot;]" />
+			<float key="NextStepId" value="5.0" />
+			<string key="label_EventName" value=" Check the message in messaging app" />
+			<string key="label_EventId" value="Event_333" />
+			<string key="Process_Name" value="teams/excelonlinebusiness/dynamicscrmonline" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="4.0" />
+			<string key="concept:name" value="Click UI element in window_in_Teams" />
+			<date key="time:timestamp" value="2022-03-01T05:08:57+00:00" />
+			<int key="@@index" value="62" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="StepId" value="3" />
+			<string key="RecordingId" value="Recording_66" />
+			<string key="ProcessId" value="Process_20" />
+			<date key="TimeStamp" value="2022-03-01T05:09:01+00:00" />
+			<string key="StepName" value="Press button in window" />
+			<string key="StepDescription" value="Firefox in Quick Launch Bar" />
+			<float key="ApplicationProcessName" value="nan" />
+			<float key="ApplicationParentWindowName" value="nan" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.PressButton Button: appmask['Quick Launch Bar']['Firefox']\n&quot;]" />
+			<float key="NextStepId" value="6.0" />
+			<string key="label_EventName" value=" Find the spreadsheet having customer detail on cloud storage" />
+			<string key="label_EventId" value="Event_334" />
+			<string key="Process_Name" value="teams/excelonlinebusiness/dynamicscrmonline" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="6.0" />
+			<string key="concept:name" value="Press button in window" />
+			<date key="time:timestamp" value="2022-03-01T05:09:01+00:00" />
+			<int key="@@index" value="63" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="StepId" value="4" />
+			<string key="RecordingId" value="Recording_66" />
+			<string key="ProcessId" value="Process_20" />
+			<date key="TimeStamp" value="2022-03-01T05:09:07+00:00" />
+			<string key="StepName" value="Populate text field in window_in_firefox" />
+			<string key="StepDescription" value="Edit 'Search with Google or enter address' in Window 'Mozilla Firefox'; Text:'o365'" />
+			<string key="ApplicationProcessName" value="firefox" />
+			<string key="ApplicationParentWindowName" value="Mozilla Firefox" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.PopulateTextField TextField: appmask['Window \\'Mozilla Firefox\\'']['Edit \\'Search with Google or enter address\\''] Text: 'o365' Mode: UIAutomation.PopulateTextMode.Replace ClickType: UIAutomation.PopulateMouseClickType.SingleClick\n&quot;]" />
+			<float key="NextStepId" value="7.0" />
+			<string key="label_EventName" value=" Find the spreadsheet having customer detail on cloud storage" />
+			<string key="label_EventId" value="Event_334" />
+			<string key="Process_Name" value="teams/excelonlinebusiness/dynamicscrmonline" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="1.0" />
+			<string key="concept:name" value="Populate text field in window_in_firefox" />
+			<date key="time:timestamp" value="2022-03-01T05:09:07+00:00" />
+			<int key="@@index" value="64" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="StepId" value="5" />
+			<string key="RecordingId" value="Recording_66" />
+			<string key="ProcessId" value="Process_20" />
+			<date key="TimeStamp" value="2022-03-01T05:09:08+00:00" />
+			<string key="StepName" value="Send keys" />
+			<string key="StepDescription" value="TextToSend:'{Return}'" />
+			<float key="ApplicationProcessName" value="nan" />
+			<float key="ApplicationParentWindowName" value="nan" />
+			<string key="AutomationStep" value="['WAIT 2\n', &quot;MouseAndKeyboard.SendKeys TextToSend: '{Return}'\n&quot;]" />
+			<float key="NextStepId" value="8.0" />
+			<string key="label_EventName" value=" Find the spreadsheet having customer detail on cloud storage" />
+			<string key="label_EventId" value="Event_334" />
+			<string key="Process_Name" value="teams/excelonlinebusiness/dynamicscrmonline" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="5.0" />
+			<string key="concept:name" value="Send keys" />
+			<date key="time:timestamp" value="2022-03-01T05:09:08+00:00" />
+			<int key="@@index" value="65" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="StepId" value="6" />
+			<string key="RecordingId" value="Recording_66" />
+			<string key="ProcessId" value="Process_20" />
+			<date key="TimeStamp" value="2022-03-01T05:09:13+00:00" />
+			<string key="StepName" value="Click UI element in window_in_firefox" />
+			<string key="StepDescription" value="Hyperlink 'Office  ... office.com' in Window 'o365 - Google Search — Mozilla Firefox'" />
+			<string key="ApplicationProcessName" value="firefox" />
+			<string key="ApplicationParentWindowName" value="o365 - Google Search — Mozilla Firefox" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Window \\'o365 - Google Search — Mozilla Firefox\\'']['Hyperlink \\'Office  ... office.com\\''] ClickType: UIAutomation.ClickType.LeftClick OffsetX: 39 OffsetY: 5 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.MiddleCenter\n&quot;]" />
+			<float key="NextStepId" value="9.0" />
+			<string key="label_EventName" value=" Find the spreadsheet having customer detail on cloud storage" />
+			<string key="label_EventId" value="Event_334" />
+			<string key="Process_Name" value="teams/excelonlinebusiness/dynamicscrmonline" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="11.0" />
+			<string key="concept:name" value="Click UI element in window_in_firefox" />
+			<date key="time:timestamp" value="2022-03-01T05:09:13+00:00" />
+			<int key="@@index" value="66" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="StepId" value="7" />
+			<string key="RecordingId" value="Recording_66" />
+			<string key="ProcessId" value="Process_20" />
+			<date key="TimeStamp" value="2022-03-01T05:09:24+00:00" />
+			<string key="StepName" value="Click UI element in window_in_firefox" />
+			<string key="StepDescription" value="Hyperlink 'OneDrive' in Window 'Microsoft Office Home — Mozilla Firefox'" />
+			<string key="ApplicationProcessName" value="firefox" />
+			<string key="ApplicationParentWindowName" value="Microsoft Office Home — Mozilla Firefox" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Window \\'Microsoft Office Home — Mozilla Firefox\\'']['Hyperlink \\'OneDrive\\''] ClickType: UIAutomation.ClickType.LeftClick OffsetX: 0 OffsetY: -6 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.MiddleCenter\n&quot;]" />
+			<float key="NextStepId" value="10.0" />
+			<string key="label_EventName" value=" Find the spreadsheet having customer detail on cloud storage" />
+			<string key="label_EventId" value="Event_334" />
+			<string key="Process_Name" value="teams/excelonlinebusiness/dynamicscrmonline" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="11.0" />
+			<string key="concept:name" value="Click UI element in window_in_firefox" />
+			<date key="time:timestamp" value="2022-03-01T05:09:24+00:00" />
+			<int key="@@index" value="67" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="StepId" value="8" />
+			<string key="RecordingId" value="Recording_66" />
+			<string key="ProcessId" value="Process_20" />
+			<date key="TimeStamp" value="2022-03-01T05:09:35+00:00" />
+			<string key="StepName" value="Click UI element in window_in_firefox" />
+			<string key="StepDescription" value="Hyperlink 'Project Demo' in Window 'My files - OneDrive — Mozilla Firefox'" />
+			<string key="ApplicationProcessName" value="firefox" />
+			<string key="ApplicationParentWindowName" value="My files - OneDrive — Mozilla Firefox" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Window \\'My files - OneDrive — Mozilla Firefox\\'']['Hyperlink \\'Project Demo\\''] ClickType: UIAutomation.ClickType.LeftClick OffsetX: -22 OffsetY: -5 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.BottomRight\n&quot;]" />
+			<float key="NextStepId" value="11.0" />
+			<string key="label_EventName" value=" Find the spreadsheet having customer detail on cloud storage" />
+			<string key="label_EventId" value="Event_334" />
+			<string key="Process_Name" value="teams/excelonlinebusiness/dynamicscrmonline" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="7.0" />
+			<string key="concept:name" value="Click UI element in window_in_firefox" />
+			<date key="time:timestamp" value="2022-03-01T05:09:35+00:00" />
+			<int key="@@index" value="68" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="StepId" value="9" />
+			<string key="RecordingId" value="Recording_66" />
+			<string key="ProcessId" value="Process_20" />
+			<date key="TimeStamp" value="2022-03-01T05:09:42+00:00" />
+			<string key="StepName" value="Click UI element in window_in_firefox" />
+			<string key="StepDescription" value="Hyperlink 'Employee Details.xlsx' in Window 'Project Demo - OneDrive — Mozilla Firefox'" />
+			<string key="ApplicationProcessName" value="firefox" />
+			<string key="ApplicationParentWindowName" value="Project Demo - OneDrive — Mozilla Firefox" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Window \\'Project Demo - OneDrive — Mozilla Firefox\\'']['Hyperlink \\'Employee Details.xlsx\\''] ClickType: UIAutomation.ClickType.LeftClick OffsetX: -28 OffsetY: 4 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.TopRight\n&quot;]" />
+			<float key="NextStepId" value="12.0" />
+			<string key="label_EventName" value=" Find the spreadsheet having customer detail on cloud storage" />
+			<string key="label_EventId" value="Event_334" />
+			<string key="Process_Name" value="teams/excelonlinebusiness/dynamicscrmonline" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="6.0" />
+			<string key="concept:name" value="Click UI element in window_in_firefox" />
+			<date key="time:timestamp" value="2022-03-01T05:09:42+00:00" />
+			<int key="@@index" value="69" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="StepId" value="10" />
+			<string key="RecordingId" value="Recording_66" />
+			<string key="ProcessId" value="Process_20" />
+			<date key="TimeStamp" value="2022-03-01T05:09:48+00:00" />
+			<string key="StepName" value="Click UI element in window_in_firefox" />
+			<string key="StepDescription" value="UI Custom in Window 'Employee Details.xlsx — Mozilla Firefox'" />
+			<string key="ApplicationProcessName" value="firefox" />
+			<string key="ApplicationParentWindowName" value="Employee Details.xlsx — Mozilla Firefox" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Window \\'Employee Details.xlsx — Mozilla Firefox\\'']['UI Custom'] ClickType: UIAutomation.ClickType.LeftClick OffsetX: 32 OffsetY: 30 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.TopLeft\n&quot;]" />
+			<float key="NextStepId" value="13.0" />
+			<string key="label_EventName" value=" Find the spreadsheet having customer detail on cloud storage" />
+			<string key="label_EventId" value="Event_334" />
+			<string key="Process_Name" value="teams/excelonlinebusiness/dynamicscrmonline" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="6.0" />
+			<string key="concept:name" value="Click UI element in window_in_firefox" />
+			<date key="time:timestamp" value="2022-03-01T05:09:48+00:00" />
+			<int key="@@index" value="70" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="StepId" value="11" />
+			<string key="RecordingId" value="Recording_66" />
+			<string key="ProcessId" value="Process_20" />
+			<date key="TimeStamp" value="2022-03-01T05:09:54+00:00" />
+			<string key="StepName" value="Press button in window_in_firefox" />
+			<string key="StepDescription" value="Button 'Open a new tab (Ctrl+T)' in Window 'Employee Details.xlsx — Mozilla Firefox'" />
+			<string key="ApplicationProcessName" value="firefox" />
+			<string key="ApplicationParentWindowName" value="Employee Details.xlsx — Mozilla Firefox" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.PressButton Button: appmask['Window \\'Employee Details.xlsx — Mozilla Firefox\\'']['Button \\'Open a new tab (Ctrl+T)\\'']\n&quot;]" />
+			<float key="NextStepId" value="14.0" />
+			<string key="label_EventName" value="Login to crm tool" />
+			<string key="label_EventId" value="Event_335" />
+			<string key="Process_Name" value="teams/excelonlinebusiness/dynamicscrmonline" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="3.0" />
+			<string key="concept:name" value="Press button in window_in_firefox" />
+			<date key="time:timestamp" value="2022-03-01T05:09:54+00:00" />
+			<int key="@@index" value="71" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="StepId" value="12" />
+			<string key="RecordingId" value="Recording_66" />
+			<string key="ProcessId" value="Process_20" />
+			<date key="TimeStamp" value="2022-03-01T05:09:57+00:00" />
+			<string key="StepName" value="Populate text field in window_in_firefox" />
+			<string key="StepDescription" value="Edit 'Search with Google or enter address' in Window 'Mozilla Firefox'; Text:'dynemic crm'" />
+			<string key="ApplicationProcessName" value="firefox" />
+			<string key="ApplicationParentWindowName" value="Mozilla Firefox" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.PopulateTextField TextField: appmask['Window \\'Mozilla Firefox\\'']['Edit \\'Search with Google or enter address\\''] Text: 'dynemic crm' Mode: UIAutomation.PopulateTextMode.Replace ClickType: UIAutomation.PopulateMouseClickType.SingleClick\n&quot;]" />
+			<float key="NextStepId" value="15.0" />
+			<string key="label_EventName" value="Login to crm tool" />
+			<string key="label_EventId" value="Event_335" />
+			<string key="Process_Name" value="teams/excelonlinebusiness/dynamicscrmonline" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="1.0" />
+			<string key="concept:name" value="Populate text field in window_in_firefox" />
+			<date key="time:timestamp" value="2022-03-01T05:09:57+00:00" />
+			<int key="@@index" value="72" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="StepId" value="13" />
+			<string key="RecordingId" value="Recording_66" />
+			<string key="ProcessId" value="Process_20" />
+			<date key="TimeStamp" value="2022-03-01T05:09:58+00:00" />
+			<string key="StepName" value="Send keys" />
+			<string key="StepDescription" value="TextToSend:'{Return}'" />
+			<float key="ApplicationProcessName" value="nan" />
+			<float key="ApplicationParentWindowName" value="nan" />
+			<string key="AutomationStep" value="['WAIT 2\n', &quot;MouseAndKeyboard.SendKeys TextToSend: '{Return}'\n&quot;]" />
+			<float key="NextStepId" value="16.0" />
+			<string key="label_EventName" value="Login to crm tool" />
+			<string key="label_EventId" value="Event_335" />
+			<string key="Process_Name" value="teams/excelonlinebusiness/dynamicscrmonline" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="4.0" />
+			<string key="concept:name" value="Send keys" />
+			<date key="time:timestamp" value="2022-03-01T05:09:58+00:00" />
+			<int key="@@index" value="73" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="StepId" value="14" />
+			<string key="RecordingId" value="Recording_66" />
+			<string key="ProcessId" value="Process_20" />
+			<date key="TimeStamp" value="2022-03-01T05:10:02+00:00" />
+			<string key="StepName" value="Click UI element in window_in_firefox" />
+			<string key="StepDescription" value="Hyperlink 'What is  ...  en-us › what-is-crm' in Window 'dynemic crm - Google Search — Mozilla Firefox'" />
+			<string key="ApplicationProcessName" value="firefox" />
+			<string key="ApplicationParentWindowName" value="dynemic crm - Google Search — Mozilla Firefox" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Window \\'dynemic crm - Google Search — Mozilla Firefox\\'']['Hyperlink \\'What is  ...  en-us › what-is-crm\\''] ClickType: UIAutomation.ClickType.LeftClick OffsetX: -91 OffsetY: -13 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.BottomRight\n&quot;]" />
+			<float key="NextStepId" value="17.0" />
+			<string key="label_EventName" value="Login to crm tool" />
+			<string key="label_EventId" value="Event_335" />
+			<string key="Process_Name" value="teams/excelonlinebusiness/dynamicscrmonline" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="5.0" />
+			<string key="concept:name" value="Click UI element in window_in_firefox" />
+			<date key="time:timestamp" value="2022-03-01T05:10:02+00:00" />
+			<int key="@@index" value="74" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="StepId" value="15" />
+			<string key="RecordingId" value="Recording_66" />
+			<string key="ProcessId" value="Process_20" />
+			<date key="TimeStamp" value="2022-03-01T05:10:07+00:00" />
+			<string key="StepName" value="Click UI element in window_in_firefox" />
+			<string key="StepDescription" value="Hyperlink 'Start free' in Window 'What is  ...  — Mozilla Firefox'" />
+			<string key="ApplicationProcessName" value="firefox" />
+			<string key="ApplicationParentWindowName" value="What is CRM?| Microsoft Dynamics 365 — Mozilla Firefox" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Window \\'What is  ...  — Mozilla Firefox\\'']['Hyperlink \\'Start free\\''] ClickType: UIAutomation.ClickType.LeftClick OffsetX: -10 OffsetY: -4 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.BottomCenter\n&quot;]" />
+			<float key="NextStepId" value="18.0" />
+			<string key="label_EventName" value="Login to crm tool" />
+			<string key="label_EventId" value="Event_335" />
+			<string key="Process_Name" value="teams/excelonlinebusiness/dynamicscrmonline" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="6.0" />
+			<string key="concept:name" value="Click UI element in window_in_firefox" />
+			<date key="time:timestamp" value="2022-03-01T05:10:07+00:00" />
+			<int key="@@index" value="75" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="StepId" value="16" />
+			<string key="RecordingId" value="Recording_66" />
+			<string key="ProcessId" value="Process_20" />
+			<date key="TimeStamp" value="2022-03-01T05:10:13+00:00" />
+			<string key="StepName" value="Click UI element in window_in_firefox" />
+			<string key="StepDescription" value="Hyperlink 'Click this button to try sales app for free' in Window 'Start a Free  ...  — Mozilla Firefox'" />
+			<string key="ApplicationProcessName" value="firefox" />
+			<string key="ApplicationParentWindowName" value="Start a Free Trial for Microsoft Dynamics 365| Microsoft Dynamics 365 — Mozilla Firefox" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Window \\'Start a Free  ...  — Mozilla Firefox\\'']['Hyperlink \\'Click this button to try sales app for free\\''] ClickType: UIAutomation.ClickType.LeftClick OffsetX: -11 OffsetY: -11 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.BottomRight\n&quot;]" />
+			<float key="NextStepId" value="19.0" />
+			<string key="label_EventName" value="Login to crm tool" />
+			<string key="label_EventId" value="Event_335" />
+			<string key="Process_Name" value="teams/excelonlinebusiness/dynamicscrmonline" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="2.0" />
+			<string key="concept:name" value="Click UI element in window_in_firefox" />
+			<date key="time:timestamp" value="2022-03-01T05:10:13+00:00" />
+			<int key="@@index" value="76" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="StepId" value="17" />
+			<string key="RecordingId" value="Recording_66" />
+			<string key="ProcessId" value="Process_20" />
+			<date key="TimeStamp" value="2022-03-01T05:10:15+00:00" />
+			<string key="StepName" value="Click UI element in window_in_firefox" />
+			<string key="StepDescription" value="Edit 'Try Dynamics 365 Sales free for 30 days' in Window 'Start a Free  ...  — Mozilla Firefox'" />
+			<string key="ApplicationProcessName" value="firefox" />
+			<string key="ApplicationParentWindowName" value="Start a Free Trial for Microsoft Dynamics 365| Microsoft Dynamics 365 — Mozilla Firefox" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Window \\'Start a Free  ...  — Mozilla Firefox\\'']['Edit \\'Try Dynamics\xa0365 Sales free for 30 days\\''] ClickType: UIAutomation.ClickType.LeftClick OffsetX: 53 OffsetY: -7 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.BottomLeft\n&quot;]" />
+			<float key="NextStepId" value="20.0" />
+			<string key="label_EventName" value="Login to crm tool" />
+			<string key="label_EventId" value="Event_335" />
+			<string key="Process_Name" value="teams/excelonlinebusiness/dynamicscrmonline" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="2.0" />
+			<string key="concept:name" value="Click UI element in window_in_firefox" />
+			<date key="time:timestamp" value="2022-03-01T05:10:15+00:00" />
+			<int key="@@index" value="77" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="StepId" value="18" />
+			<string key="RecordingId" value="Recording_66" />
+			<string key="ProcessId" value="Process_20" />
+			<date key="TimeStamp" value="2022-03-01T05:10:17+00:00" />
+			<string key="StepName" value="Click UI element in window" />
+			<string key="StepDescription" value="List Item 'Email@Domain' in List" />
+			<float key="ApplicationProcessName" value="nan" />
+			<float key="ApplicationParentWindowName" value="nan" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['List']['List Item \\'Email@Domain\\''] ClickType: UIAutomation.ClickType.LeftClick OffsetX: 53 OffsetY: -4 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.BottomLeft\n&quot;]" />
+			<float key="NextStepId" value="21.0" />
+			<string key="label_EventName" value="Login to crm tool" />
+			<string key="label_EventId" value="Event_335" />
+			<string key="Process_Name" value="teams/excelonlinebusiness/dynamicscrmonline" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="2.0" />
+			<string key="concept:name" value="Click UI element in window" />
+			<date key="time:timestamp" value="2022-03-01T05:10:17+00:00" />
+			<int key="@@index" value="78" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="StepId" value="19" />
+			<string key="RecordingId" value="Recording_66" />
+			<string key="ProcessId" value="Process_20" />
+			<date key="TimeStamp" value="2022-03-01T05:10:19+00:00" />
+			<string key="StepName" value="Press button in window_in_firefox" />
+			<string key="StepDescription" value="Button 'click this to start your free trial' in Window 'Start a Free  ...  — Mozilla Firefox'" />
+			<string key="ApplicationProcessName" value="firefox" />
+			<string key="ApplicationParentWindowName" value="Start a Free Trial for Microsoft Dynamics 365| Microsoft Dynamics 365 — Mozilla Firefox" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.PressButton Button: appmask['Window \\'Start a Free  ...  — Mozilla Firefox\\'']['Button \\'click this to start your free trial\\'']\n&quot;]" />
+			<float key="NextStepId" value="22.0" />
+			<string key="label_EventName" value="Login to crm tool" />
+			<string key="label_EventId" value="Event_335" />
+			<string key="Process_Name" value="teams/excelonlinebusiness/dynamicscrmonline" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="15.0" />
+			<string key="concept:name" value="Press button in window_in_firefox" />
+			<date key="time:timestamp" value="2022-03-01T05:10:19+00:00" />
+			<int key="@@index" value="79" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="StepId" value="20" />
+			<string key="RecordingId" value="Recording_66" />
+			<string key="ProcessId" value="Process_20" />
+			<date key="TimeStamp" value="2022-03-01T05:10:34+00:00" />
+			<string key="StepName" value="Click UI element in window_in_firefox" />
+			<string key="StepDescription" value="Tree Item 'Contacts' in Window 'Sales dashboard - Dynamics 365 — Mozilla Firefox'" />
+			<string key="ApplicationProcessName" value="firefox" />
+			<string key="ApplicationParentWindowName" value="Sales dashboard - Dynamics 365 — Mozilla Firefox" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.Click Element: appmask['Window \\'Sales dashboard - Dynamics 365 — Mozilla Firefox\\'']['Tree Item \\'Contacts\\''] ClickType: UIAutomation.ClickType.LeftClick OffsetX: -5 OffsetY: -4 MousePositionRelativeToElement: UIAutomation.RectangleEdgePoint.MiddleCenter\n&quot;]" />
+			<float key="NextStepId" value="23.0" />
+			<string key="label_EventName" value="Create a record for new customer" />
+			<string key="label_EventId" value="Event_336" />
+			<string key="Process_Name" value="teams/excelonlinebusiness/dynamicscrmonline" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="9.0" />
+			<string key="concept:name" value="Click UI element in window_in_firefox" />
+			<date key="time:timestamp" value="2022-03-01T05:10:34+00:00" />
+			<int key="@@index" value="80" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="StepId" value="21" />
+			<string key="RecordingId" value="Recording_66" />
+			<string key="ProcessId" value="Process_20" />
+			<date key="TimeStamp" value="2022-03-01T05:10:43+00:00" />
+			<string key="StepName" value="Select menu option in window_in_firefox" />
+			<string key="StepDescription" value="Menu Item 'New' in Window 'Contacts My  ...  — Mozilla Firefox'" />
+			<string key="ApplicationProcessName" value="firefox" />
+			<string key="ApplicationParentWindowName" value="Contacts My Active Contacts - Dynamics 365 — Mozilla Firefox" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.SelectMenuOption Control: appmask['Window \\'Contacts My  ...  — Mozilla Firefox\\'']['Menu Item \\'New\\'']\n&quot;]" />
+			<float key="NextStepId" value="24.0" />
+			<string key="label_EventName" value="Create a record for new customer" />
+			<string key="label_EventId" value="Event_336" />
+			<string key="Process_Name" value="teams/excelonlinebusiness/dynamicscrmonline" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="8.0" />
+			<string key="concept:name" value="Select menu option in window_in_firefox" />
+			<date key="time:timestamp" value="2022-03-01T05:10:43+00:00" />
+			<int key="@@index" value="81" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="StepId" value="22" />
+			<string key="RecordingId" value="Recording_66" />
+			<string key="ProcessId" value="Process_20" />
+			<date key="TimeStamp" value="2022-03-01T05:10:51+00:00" />
+			<string key="StepName" value="Populate text field in window_in_firefox" />
+			<string key="StepDescription" value="Edit 'First Name' in Window 'Contacts My  ...  — Mozilla Firefox'; Text:'ViName'" />
+			<string key="ApplicationProcessName" value="firefox" />
+			<string key="ApplicationParentWindowName" value="Contacts My Active Contacts - Dynamics 365 — Mozilla Firefox" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.PopulateTextField TextField: appmask['Window \\'Contacts My  ...  — Mozilla Firefox\\'']['Edit \\'First Name\\''] Text: 'ViName' Mode: UIAutomation.PopulateTextMode.Replace ClickType: UIAutomation.PopulateMouseClickType.SingleClick\n&quot;]" />
+			<float key="NextStepId" value="25.0" />
+			<string key="label_EventName" value="Create a record for new customer" />
+			<string key="label_EventId" value="Event_336" />
+			<string key="Process_Name" value="teams/excelonlinebusiness/dynamicscrmonline" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="5.0" />
+			<string key="concept:name" value="Populate text field in window_in_firefox" />
+			<date key="time:timestamp" value="2022-03-01T05:10:51+00:00" />
+			<int key="@@index" value="82" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="StepId" value="23" />
+			<string key="RecordingId" value="Recording_66" />
+			<string key="ProcessId" value="Process_20" />
+			<date key="TimeStamp" value="2022-03-01T05:10:56+00:00" />
+			<string key="StepName" value="Populate text field in window_in_firefox" />
+			<string key="StepDescription" value="Edit 'Last Name' in Window 'Contacts My  ...  — Mozilla Firefox'; Text:'Surname'" />
+			<string key="ApplicationProcessName" value="firefox" />
+			<string key="ApplicationParentWindowName" value="Contacts My Active Contacts - Dynamics 365 — Mozilla Firefox" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.PopulateTextField TextField: appmask['Window \\'Contacts My  ...  — Mozilla Firefox\\'']['Edit \\'Last Name\\''] Text: 'Surname' Mode: UIAutomation.PopulateTextMode.Replace ClickType: UIAutomation.PopulateMouseClickType.SingleClick\n&quot;]" />
+			<float key="NextStepId" value="26.0" />
+			<string key="label_EventName" value="Create a record for new customer" />
+			<string key="label_EventId" value="Event_336" />
+			<string key="Process_Name" value="teams/excelonlinebusiness/dynamicscrmonline" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="5.0" />
+			<string key="concept:name" value="Populate text field in window_in_firefox" />
+			<date key="time:timestamp" value="2022-03-01T05:10:56+00:00" />
+			<int key="@@index" value="83" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="StepId" value="24" />
+			<string key="RecordingId" value="Recording_66" />
+			<string key="ProcessId" value="Process_20" />
+			<date key="TimeStamp" value="2022-03-01T05:11:01+00:00" />
+			<string key="StepName" value="Populate text field in window_in_firefox" />
+			<string key="StepDescription" value="Edit 'Job Title' in Window 'Contacts My  ...  — Mozilla Firefox'; Text:'Srr. Manager'" />
+			<string key="ApplicationProcessName" value="firefox" />
+			<string key="ApplicationParentWindowName" value="Contacts My Active Contacts - Dynamics 365 — Mozilla Firefox" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.PopulateTextField TextField: appmask['Window \\'Contacts My  ...  — Mozilla Firefox\\'']['Edit \\'Job Title\\''] Text: 'Srr. Manager' Mode: UIAutomation.PopulateTextMode.Replace ClickType: UIAutomation.PopulateMouseClickType.SingleClick\n&quot;]" />
+			<float key="NextStepId" value="27.0" />
+			<string key="label_EventName" value="Create a record for new customer" />
+			<string key="label_EventId" value="Event_336" />
+			<string key="Process_Name" value="teams/excelonlinebusiness/dynamicscrmonline" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="11.0" />
+			<string key="concept:name" value="Populate text field in window_in_firefox" />
+			<date key="time:timestamp" value="2022-03-01T05:11:01+00:00" />
+			<int key="@@index" value="84" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="StepId" value="25" />
+			<string key="RecordingId" value="Recording_66" />
+			<string key="ProcessId" value="Process_20" />
+			<date key="TimeStamp" value="2022-03-01T05:11:12+00:00" />
+			<string key="StepName" value="Populate text field in window_in_firefox" />
+			<string key="StepDescription" value="Edit 'Email' in Window 'Contacts My  ...  — Mozilla Firefox'; Text:'Email@Domain'" />
+			<string key="ApplicationProcessName" value="firefox" />
+			<string key="ApplicationParentWindowName" value="Contacts My Active Contacts - Dynamics 365 — Mozilla Firefox" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.PopulateTextField TextField: appmask['Window \\'Contacts My  ...  — Mozilla Firefox\\'']['Edit \\'Email\\''] Text: 'Email@Domain' Mode: UIAutomation.PopulateTextMode.Replace ClickType: UIAutomation.PopulateMouseClickType.SingleClick\n&quot;]" />
+			<float key="NextStepId" value="28.0" />
+			<string key="label_EventName" value="Create a record for new customer" />
+			<string key="label_EventId" value="Event_336" />
+			<string key="Process_Name" value="teams/excelonlinebusiness/dynamicscrmonline" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="5.0" />
+			<string key="concept:name" value="Populate text field in window_in_firefox" />
+			<date key="time:timestamp" value="2022-03-01T05:11:12+00:00" />
+			<int key="@@index" value="85" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="StepId" value="26" />
+			<string key="RecordingId" value="Recording_66" />
+			<string key="ProcessId" value="Process_20" />
+			<date key="TimeStamp" value="2022-03-01T05:11:17+00:00" />
+			<string key="StepName" value="Populate text field in window_in_firefox" />
+			<string key="StepDescription" value="Edit 'Mobile Phone' in Window 'Contacts My  ...  — Mozilla Firefox'; Text:'9898989898'" />
+			<string key="ApplicationProcessName" value="firefox" />
+			<string key="ApplicationParentWindowName" value="Contacts My Active Contacts - Dynamics 365 — Mozilla Firefox" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.PopulateTextField TextField: appmask['Window \\'Contacts My  ...  — Mozilla Firefox\\'']['Edit \\'Mobile Phone\\''] Text: '9898989898' Mode: UIAutomation.PopulateTextMode.Replace ClickType: UIAutomation.PopulateMouseClickType.SingleClick\n&quot;]" />
+			<float key="NextStepId" value="29.0" />
+			<string key="label_EventName" value="Create a record for new customer" />
+			<string key="label_EventId" value="Event_336" />
+			<string key="Process_Name" value="teams/excelonlinebusiness/dynamicscrmonline" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="9.0" />
+			<string key="concept:name" value="Populate text field in window_in_firefox" />
+			<date key="time:timestamp" value="2022-03-01T05:11:17+00:00" />
+			<int key="@@index" value="86" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="StepId" value="27" />
+			<string key="RecordingId" value="Recording_66" />
+			<string key="ProcessId" value="Process_20" />
+			<date key="TimeStamp" value="2022-03-01T05:11:26+00:00" />
+			<string key="StepName" value="final_Press button in window_in_firefox" />
+			<string key="StepDescription" value="Button 'Save and Close' in Window 'Contacts My  ...  — Mozilla Firefox'" />
+			<string key="ApplicationProcessName" value="firefox" />
+			<string key="ApplicationParentWindowName" value="Contacts My Active Contacts - Dynamics 365 — Mozilla Firefox" />
+			<string key="AutomationStep" value="[&quot;UIAutomation.PressButton Button: appmask['Window \\'Contacts My  ...  — Mozilla Firefox\\'']['Button \\'Save and Close\\'']\n&quot;, '# End of autogenerated actions using the desktop recorder\n']" />
+			<float key="NextStepId" value="nan" />
+			<string key="label_EventName" value="Create a record for new customer" />
+			<string key="label_EventId" value="Event_336" />
+			<string key="Process_Name" value="teams/excelonlinebusiness/dynamicscrmonline" />
+			<float key="Connectors" value="nan" />
+			<float key="duration" value="0.0" />
+			<string key="concept:name" value="final_Press button in window_in_firefox" />
+			<date key="time:timestamp" value="2022-03-01T05:11:26+00:00" />
+			<int key="@@index" value="87" />
+			<int key="@@case_index" value="2" />
+		</event>
+	</trace>
+</log>
